@@ -1,19 +1,4 @@
 # =========================================
-# Route main website to /site folder
-# =========================================
-<IfModule mod_rewrite.c>
-RewriteEngine On
-
-# Send all main site traffic to /site
-RewriteCond %{REQUEST_URI} !^/site/
-RewriteCond %{REQUEST_URI} !^/blog/
-RewriteCond %{REQUEST_URI} !^/assets/
-RewriteCond %{REQUEST_URI} !^/cdn-cgi/
-RewriteRule ^(.*)$ /site/$1 [L]
-
-</IfModule>
-
-# =========================================
 # 301 redirects for broken/old URLs
 # =========================================
 Redirect 301 /blog/contact-us/ /blog/
