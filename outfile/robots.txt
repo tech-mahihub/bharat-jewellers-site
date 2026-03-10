@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow thank-you page (no need to index)
+Disallow: /thank-you.html
+
+# Sitemap location (update domain if different)
+Sitemap: https://bharatjewellers.ca/sitemap.xml
