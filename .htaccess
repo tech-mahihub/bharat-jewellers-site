@@ -1,5 +1,21 @@
-# 301 redirects for broken/old URLs (do not modify /cdn-cgi/l/email-protection)
-# Invalid blog paths → main blog page
+# =========================================
+# Route main website to /site folder
+# =========================================
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Send all main site traffic to /site
+RewriteCond %{REQUEST_URI} !^/site/
+RewriteCond %{REQUEST_URI} !^/blog/
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteCond %{REQUEST_URI} !^/cdn-cgi/
+RewriteRule ^(.*)$ /site/$1 [L]
+
+</IfModule>
+
+# =========================================
+# 301 redirects for broken/old URLs
+# =========================================
 Redirect 301 /blog/contact-us/ /blog/
 Redirect 301 /blog/edmonton /blog/
 Redirect 301 /blog/our-collections/bracelet/ /blog/
@@ -7,7 +23,9 @@ Redirect 301 /blog/our-collections/rings/ /blog/
 Redirect 301 /blog/surrey /blog/
 Redirect 301 /blog/surrey/ /blog/
 
+# =========================================
 # Clean URLs – hide .html extensions
+# =========================================
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
@@ -16,20 +34,20 @@ RewriteCond %{REQUEST_URI} !^/assets/
 RewriteCond %{REQUEST_URI} !^/blog/
 RewriteCond %{REQUEST_URI} !^/cdn-cgi/
 
-# A) Redirect .html URLs to clean URLs (e.g., /contact.html -> /contact)
+# A) Redirect .html URLs to clean URLs (example: /contact.html -> /contact)
 RewriteCond %{REQUEST_URI} !^/404\.html$
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteCond %{THE_REQUEST} \s/+(.+)\.html[\s?]
 RewriteRule ^(.+)\.html$ /$1 [R=301,L]
 
-# B) Internally rewrite clean URLs to .html (e.g., /contact -> contact.html)
-RewriteCond %{REQUEST_URI} !^/assets/
-RewriteCond %{REQUEST_URI} !^/blog/
-RewriteCond %{REQUEST_URI} !^/cdn-cgi/
+# B) Internally rewrite clean URLs to .html (example: /contact -> contact.html)
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+?)/?$ $1.html [L]
+
 </IfModule>
 
-# Custom 404 page for Bharat Jewellers
+# =========================================
+# Custom 404 page
+# =========================================
 ErrorDocument 404 /404.html
