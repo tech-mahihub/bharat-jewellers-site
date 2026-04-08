@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview --host",
+    "check": "astro check",
+    "deploy": "npm run build"
   },
   "dependencies": {
     "astro": "^5.7.0"
