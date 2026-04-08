@@ -1,0 +1,50 @@
+# =========================================
+# 301 redirects for broken/old URLs
+# =========================================
+Redirect 301 /blog/contact-us/ /blog/
+Redirect 301 /blog/edmonton /blog/
+Redirect 301 /blog/our-collections/bracelet/ /blog/
+Redirect 301 /blog/our-collections/rings/ /blog/
+Redirect 301 /blog/surrey /blog/
+Redirect 301 /blog/surrey/ /blog/
+
+# =========================================
+# Clean URLs – hide .html extensions
+# =========================================
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Canonical domain: force https + non-www in one 301 hop
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.bharatjewellers\.ca$ [NC]
+RewriteRule ^ https://bharatjewellers.ca%{REQUEST_URI} [R=301,L]
+
+# 410 Gone – legacy /products/* URLs (never existed on this site; crawlers should drop them)
+RewriteRule ^products(/.*)?$ - [G,L]
+
+# 301 /category.html?category={slug} → /{slug} (must run before extension stripping)
+RewriteCond %{QUERY_STRING} ^category=([^&]+)$
+RewriteRule ^category\.html$ /%1? [R=301,L]
+
+# Skip assets and special paths
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteCond %{REQUEST_URI} !^/blog/
+RewriteCond %{REQUEST_URI} !^/cdn-cgi/
+
+# A) Redirect .html URLs to clean URLs (example: /contact.html -> /contact)
+RewriteCond %{REQUEST_URI} !^/404\.html$
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{THE_REQUEST} \s/+(.+)\.html[\s?]
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# B) Internally rewrite clean URLs to .html (example: /contact -> contact.html)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+</IfModule>
+
+# =========================================
+# Custom 404 page
+# =========================================
+ErrorDocument 404 /404.html
