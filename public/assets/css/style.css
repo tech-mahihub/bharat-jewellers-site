@@ -120,17 +120,18 @@ a:hover {
 /* ================= HEADER STYLES ================= */
 
 .site-header {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
-  z-index: 200;
+  max-width: 100%;
+  z-index: 1000;
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.95),
     rgba(0, 0, 0, 0.9)
   );
   border-bottom: 1px solid rgba(212, 175, 55, 0.12);
-  padding: 18px 60px;
+  padding: 18px 0;
   backdrop-filter: blur(6px);
 }
 
@@ -154,6 +155,11 @@ a:hover {
 }
 
 .header-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -482,7 +488,7 @@ a:hover {
 @media (max-width: 1024px) {
 
   .site-header {
-    padding: 12px 24px;
+    padding: 12px 0;
   }
 
   .main-nav,
@@ -513,7 +519,7 @@ a:hover {
 
   .menu-toggle {
     position: absolute;
-    right: 24px;
+    right: 16px;
     top: 50%;
     transform: translateY(-50%);
     flex-shrink: 0;
@@ -541,7 +547,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .site-header {
-    padding: 10px 18px;
+    padding: 10px 0;
   }
 
   .header-inner {
@@ -554,7 +560,7 @@ a:hover {
   }
 
   .menu-toggle {
-    right: 18px;
+    right: 16px;
   }
 
   .mobile-menu {
@@ -3137,6 +3143,7 @@ footer {
   top: 72px;
   left: 0;
   right: 0;
+  width: 100%;
   height: calc(100vh - 72px);
   background: #000;
   opacity: 0;
@@ -3156,7 +3163,10 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 22px;
-  padding: 28px 24px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  width: 100%;
   height: 100%;
   justify-content: flex-start;
   overflow-y: auto;
@@ -3222,7 +3232,8 @@ footer {
 }
 
 .mobile-menu .btn-outline {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   text-align: center;
   padding: 16px;
   border-radius: 999px;
@@ -3231,7 +3242,7 @@ footer {
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .mobile-menu-inner {
-    padding: 32px 32px 40px;
+    padding: 24px 16px;
   }
 
   .mobile-nav a {
@@ -4718,17 +4729,20 @@ footer {
 }
 
 /* ================= LOCATION PAGES (ASTRO FIX) ================= */
-.location-page .layout-container main > .px-4.py-5 {
-  padding: 0 !important;
-}
-
-.location-page .location-page-content,
-.location-page .content-wrap {
+.location-page .location-page-content {
   max-width: 1200px !important;
   margin: 0 auto;
-  padding: 0 20px !important;
+  padding: 0 16px !important;
   width: 100%;
   min-width: 0;
+}
+
+/* Keep location layout rules scoped to main content only */
+.location-page main .content-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
 }
 
 .location-page .section,
@@ -4742,12 +4756,17 @@ footer {
   margin: 0;
 }
 
+.location-page .location-page-content,
+.location-page .location-hero-section {
+  overflow: visible;
+}
+
 .location-page .location-hero {
   position: relative;
   height: 420px;
   min-height: 420px !important;
   border-radius: 16px !important;
-  overflow: hidden;
+  overflow: visible;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -4883,13 +4902,12 @@ footer {
 .location-page .about-cta .content-wrap {
   max-width: 1200px !important;
   margin: 0 auto;
-  padding: 0 20px !important;
+  padding: 0 16px !important;
 }
 
 @media (max-width: 480px) {
-  .location-page .location-page-content,
-  .location-page .content-wrap {
-    padding: 0 18px !important;
+  .location-page .location-page-content {
+    padding: 0 16px !important;
   }
 
   .location-page .location-hero {
