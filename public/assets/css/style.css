@@ -3712,6 +3712,14 @@ footer {
   background: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBkj9FFcVFO5CSqgSOK-bEFa_MHhARpeU26FDSGVhuH0ghaKcC8KGifAbMM1eGlCmTmYe-FFjeBcu76PvZ37UaDX5c-kbqevWb8cR2t5b6L85wLeokxio-DhEr1YttK77Nms0GVKIF4HBbUgENK5vVB89g8g6azirbH0UVNPQsdtZYGdgnJ4mZPe97uOKuJh7H9bTwldoWs0E8RfO-YHOSQ29v9KOUcCeuFngMzCcW1EvV8wGX9rxST864y9tAqv4MbWdwWJET8at4') center/cover no-repeat;
 }
 
+.about-hero h1 {
+  font-size: 38px;
+}
+
+.about-hero .hero-sub {
+  color: var(--primary-gold);
+}
+
 .hero-divider {
   width: 100px;
   height: 3px;
@@ -4673,27 +4681,284 @@ footer {
 }
 
 .contact-page .contact-main {
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 2rem 0;
 }
 
-.contact-hero h1 {
-  font-size: 34px;
-  letter-spacing: 0.6px;
-  margin-bottom: 4px;
-  line-height: 1.1;
+/* ================= LOCATION PAGES (ASTRO FIX) ================= */
+.location-page .layout-container main > .px-4.py-5 {
+  padding: 0 !important;
 }
 
-.contact-hero h2 {
-  font-size: 16px;
+.location-page .location-page-content,
+.location-page .content-wrap {
+  max-width: 1200px !important;
+  margin: 0 auto;
+  padding: 0 20px !important;
+  width: 100%;
+  min-width: 0;
+}
+
+.location-page .section,
+.location-page .location-section-block {
+  padding: 80px 0;
   margin: 0;
 }
 
+.location-page .location-hero-section {
+  padding: 24px 0 0;
+  margin: 0;
+}
+
+.location-page .location-hero {
+  position: relative;
+  height: 420px;
+  min-height: 420px !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  display: block !important;
+  padding: 0 !important;
+}
+
+.location-page .location-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.4) 40%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  z-index: 0;
+}
+
+.location-page .location-hero-content {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  z-index: 2;
+  max-width: 700px;
+}
+
+.location-page .location-hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 10px !important;
+  line-height: 1.1;
+}
+
+.location-page .location-hero p {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: #d4af37 !important;
+  margin: 0 !important;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.location-page .location-hero .material-symbols-outlined {
+  color: #d4af37 !important;
+}
+
+/* Match original Tailwind: grid-cols-1 md:grid-cols-2 */
+.location-page .location-info {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+/* Match original: grid-cols-2 md:grid-cols-4 + first tile col-span-2 row-span-2 */
+.location-page .gallery-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.location-page .gallery-grid > .group:first-child {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+}
+
+.location-page .gallery-grid img,
+.location-page .gallery-grid video {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.location-page .gallery-grid > .group {
+  min-width: 0;
+  min-height: 0;
+}
+
+/* Same row as backup: grid-cols-1 sm:grid-cols-2 md:grid-cols-4 */
+.location-page .location-gallery-videos {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 1rem;
+}
+
+/* Match original: grid-cols-1 sm:grid-cols-2 md:grid-cols-4 */
+.location-page .services-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .location-page .location-gallery-videos {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .location-page .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .location-page .location-info {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 2.5rem;
+  }
+
+  .location-page .gallery-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+
+  .location-page .location-gallery-videos {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+
+  .location-page .services-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+}
+
+.location-page .testimonial-section .content-wrap,
+.location-page .about-cta .content-wrap {
+  max-width: 1200px !important;
+  margin: 0 auto;
+  padding: 0 20px !important;
+}
+
+@media (max-width: 480px) {
+  .location-page .location-page-content,
+  .location-page .content-wrap {
+    padding: 0 18px !important;
+  }
+
+  .location-page .location-hero {
+    height: 420px;
+    min-height: 420px !important;
+  }
+
+  .location-page .location-hero-content {
+    left: 20px;
+    bottom: 20px;
+    max-width: calc(100% - 40px);
+  }
+
+  .location-page .location-hero h1 {
+    font-size: 28px;
+  }
+
+  .location-page .location-hero p {
+    font-size: 16px;
+  }
+
+  .location-page .section,
+  .location-page .location-section-block {
+    padding: 56px 0;
+  }
+}
+
+.contact-page-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem !important;
+}
+
+.contact-hero-section {
+  width: 100%;
+}
+
+.contact-hero {
+  width: 100%;
+  min-height: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url('/assets/images/Contact/contact-jewelry.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+}
+
+.contact-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.contact-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-hero-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-hero-title {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 42px;
+  letter-spacing: 0;
+  margin: 0 0 15px;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact-hero-subtitle {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 26px;
+  margin: 0 0 15px;
+  line-height: 1.2;
+  font-weight: 500;
+  max-width: 900px;
+  color: #d4af37;
+}
+
 .contact-divider {
-  height: 3px !important;
-  width: 100px !important;
-  background: linear-gradient(to right, transparent, var(--primary-gold), transparent) !important;
-  margin-top: 6px;
+  width: 60px;
+  height: 2px;
+  background: #d4af37;
+  margin: 10px auto 0;
 }
 
 .contact-stores {
@@ -4735,106 +5000,245 @@ footer {
 }
 
 .contact-cta {
-  background: transparent;
-  border-top: none !important;
-  padding-top: 0 !important;
-  border-color: transparent !important;
+  padding: 80px 0;
+  background: #000;
 }
 
-.contact-cta .about-cta-card {
-  width: 100%;
+.cta-box {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 40px;
+  border-radius: 20px;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    #28210A 0%,
+    #100D04 100%
+  );
+  border: 1px solid rgba(212, 175, 55, 0.16);
 }
 
-.contact-message-grid {
-  align-items: stretch;
+.cta-title {
+  margin: 0 0 20px;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.4rem, 4.6vw, 44px);
+  font-weight: 600;
+  color: #fff;
 }
 
-.contact-message-text {
-  justify-content: flex-start;
+.cta-subtext {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: clamp(1rem, 1.8vw, 18px);
+  margin: 0 0 35px;
 }
 
-.contact-message-text h2 {
-  margin-top: 0;
+.cta-btn {
+  background: #d4af37;
+  color: #000;
+  padding: 14px 38px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
 }
 
-.contact-message-text p {
-  margin-bottom: 14px;
+.cta-btn:hover {
+  background: #bf9429;
+}
+
+.cta-phones {
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  font-size: 16px;
+}
+
+.contact-section {
+  padding: 80px 0;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.contact-left-title {
+  margin: 0;
+  color: #fff;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.contact-left-desc {
+  margin: 16px 0 0;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
 }
 
 .contact-support-image-wrap {
   display: flex;
-  justify-content: center;
-  margin-bottom: 8px;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
 
 .contact-support-image {
   width: 100%;
-  max-width: 470px;
-  border-radius: 8px;
-  opacity: 0.78;
-  filter: brightness(0.85);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  max-width: 520px;
+  border-radius: 10px;
+  opacity: 0.92;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
+}
+
+.form-card {
+  background: #000000;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.1), 0 10px 28px rgba(0, 0, 0, 0.5), 0 0 14px rgba(212, 175, 55, 0.14);
+}
+
+.contact-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .contact-form-grid {
-  margin-bottom: 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
 
-.contact-form-card input,
-.contact-form-card select,
-.contact-form-card textarea {
-  border-radius: 8px !important;
-  border-color: rgba(212, 175, 55, 0.3) !important;
-  padding: 14px 16px;
-  line-height: 1.5;
-  font-size: 14px;
-}
-
-.contact-form-card input,
-.contact-form-card select {
-  height: 48px;
-}
-
-.contact-form-card textarea {
-  min-height: 160px;
-}
-
-.contact-form-card button,
-.contact-cta button {
-  background: var(--primary-gold);
-  color: #000;
-  padding: 14px 34px;
-  font-size: 14px;
-  letter-spacing: 2px;
-  border-radius: 8px !important;
-  text-transform: uppercase;
-  box-shadow: none;
-}
-
-.contact-form-card button:hover,
-.contact-cta button:hover {
-  background: #b88c1d;
-  color: #000;
-}
-
-.contact-form-card iframe {
-  display: block;
+.contact-input {
   width: 100%;
-  max-width: 100%;
+  background: #000000;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  color: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px 12px;
+  min-height: 46px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
-.contact-page details {
-  border-radius: 16px;
-  border-color: rgba(212, 175, 55, 0.25);
-  padding: 18px;
+.contact-input::placeholder {
+  color: rgba(210, 210, 210, 0.72);
 }
 
-.contact-page details .material-symbols-outlined {
-  font-size: 22px;
+.contact-input:focus {
+  background: #161616;
+  border-color: #d4af37;
+  box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.4);
 }
 
-.contact-page .space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  margin-top: 12px;
+.contact-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-submit-btn {
+  width: 100%;
+  background: #d4af37;
+  color: #000;
+  border: 0;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact-submit-btn:hover {
+  background: #bf9429;
+}
+
+.contact-form-status {
+  margin-top: 2px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.faq-section {
+  padding: 80px 0;
+  background: #000;
+}
+
+.faq-title {
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: clamp(2.25rem, 4vw, 2.6rem);
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 40px;
+}
+
+.faq-list {
+  width: 100%;
+}
+
+.faq-item {
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 18px 20px;
+  background: transparent;
+  transition: border-color 0.22s ease;
+}
+
+.faq-item:hover {
+  border-color: rgba(212, 175, 55, 0.6);
+}
+
+.faq-question {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 1.02rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: left;
+  padding: 0;
+}
+
+.faq-question .icon {
+  color: #d4af37;
+  transition: transform 0.26s ease;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.faq-item.active .faq-question .icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  color: rgba(220, 220, 220, 0.86);
+  line-height: 1.6;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.faq-answer p {
+  margin: 10px 0 0;
 }
 
 .contact-page .contact-main > .mx-auto {
@@ -5251,33 +5655,91 @@ footer {
 }
 
 @media (max-width: 1024px) {
-  .contact-page main {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
   .contact-page .contact-main {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 1.5rem 0;
   }
 
-  .contact-hero h1 {
-    font-size: 30px;
+  .contact-page-stack {
+    gap: 2.8rem !important;
+  }
+
+  .contact-wrapper {
+    gap: 36px;
+  }
+
+  .contact-hero {
+    min-height: 400px;
+  }
+
+  .contact-hero-title {
+    font-size: 36px;
+  }
+
+  .contact-hero-subtitle {
+    font-size: 22px;
   }
 }
 
 @media (max-width: 768px) {
-  .contact-page main {
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
   .contact-page .contact-main {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding: 1.25rem 0;
   }
 
-  .contact-hero h1 {
-    font-size: 26px;
+  .contact-section {
+    padding: 56px 0;
+  }
+
+  .contact-cta {
+    padding: 56px 0;
+  }
+
+  .cta-box {
+    padding: 36px 20px;
+    border-radius: 14px;
+  }
+
+  .cta-subtext {
+    margin-bottom: 22px;
+  }
+
+  .faq-section {
+    padding: 56px 0;
+  }
+
+  .faq-title {
+    margin-bottom: 28px;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .contact-left-title {
+    font-size: 1.7rem;
+  }
+
+  .form-card {
+    padding: 20px 16px;
+  }
+
+  .contact-form-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .contact-hero {
+    min-height: 340px;
+    padding: 56px 18px;
+  }
+
+  .contact-hero-title {
+    font-size: 30px;
+  }
+
+  .contact-hero-subtitle {
+    font-size: 19px;
+    max-width: 95%;
   }
 }

@@ -12,22 +12,22 @@
     <header class="site-header">
         <div class="header-inner">
             <div class="logo">
-                <a href="index.html">
-                    <img src="assets/images/Logo/bharat-jewellers-logo.webp" alt="Bharat Jewellers">
+                <a href="/">
+                    <img src="/assets/images/Logo/bharat-jewellers-logo.webp" alt="Bharat Jewellers">
                 </a>
             </div>
             <nav class="main-nav" aria-label="Main navigation">
                 <ul class="main-nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about/">About</a></li>
                     <li class="nav-item-has-mega">
-                        <a href="collections.html" class="nav-link-mega-trigger">Collections</a>
+                        <a href="/collections/" class="nav-link-mega-trigger">Collections</a>
                     </li>
                     <li><a href="/blog">Blogs</a></li>
-                    <li><a href="live-gold-rates.html">Live Gold Rates</a></li>
+                    <li><a href="/live-gold-rates/">Live Gold Rates</a></li>
                 </ul>
             </nav>
-            <a href="contact.html" class="btn-outline header-cta">Contact Us</a>
+            <a href="/contact/" class="btn-outline header-cta">Contact Us</a>
             <button class="menu-toggle" aria-label="Open menu" type="button">
                 <span></span>
                 <span></span>
@@ -37,33 +37,33 @@
         <section class="mega-menu" aria-label="Collections submenu">
             <div class="mega-menu-inner">
                 <div class="mega-menu-grid">
-                    <a class="mega-menu-card" href="/gold-jewellery">
+                    <a class="mega-menu-card" href="/gold-jewellery/">
                         <div class="mega-menu-card-image">
-                            <img src="assets/images/Homepage/Gold-Jewellery-Collections.webp" alt="Gold Jewellery">
+                            <img src="/assets/images/Homepage/Gold-Jewellery-Collections.webp" alt="Gold Jewellery">
                         </div>
                         <h3 class="mega-menu-card-title">Gold Jewellery</h3>
                         <p class="mega-menu-card-desc">Elegant 22K gold pieces crafted by master artisans.</p>
                         <span class="mega-menu-card-link">View collection</span>
                     </a>
-                    <a class="mega-menu-card" href="/diamond-jewellery">
+                    <a class="mega-menu-card" href="/diamond-jewellery/">
                         <div class="mega-menu-card-image">
-                            <img src="assets/images/Homepage/Diamond-Jewellery-Collections.webp" alt="Diamond Jewellery">
+                            <img src="/assets/images/Homepage/Diamond-Jewellery-Collections.webp" alt="Diamond Jewellery">
                         </div>
                         <h3 class="mega-menu-card-title">Diamond Jewellery</h3>
                         <p class="mega-menu-card-desc">Refined brilliance for modern luxury.</p>
                         <span class="mega-menu-card-link">View collection</span>
                     </a>
-                    <a class="mega-menu-card" href="/bridal-sets">
+                    <a class="mega-menu-card" href="/bridal-sets/">
                         <div class="mega-menu-card-image">
-                            <img src="assets/images/Homepage/Gold-Bridal-Sets.webp" alt="Bridal Collection">
+                            <img src="/assets/images/Homepage/Gold-Bridal-Sets.webp" alt="Bridal Collection">
                         </div>
                         <h3 class="mega-menu-card-title">Bridal Collection</h3>
                         <p class="mega-menu-card-desc">Complete sets for your special day.</p>
                         <span class="mega-menu-card-link">View collection</span>
                     </a>
-                    <a class="mega-menu-card" href="/custom-jewellery">
+                    <a class="mega-menu-card" href="/custom-jewellery/">
                         <div class="mega-menu-card-image">
-                            <img src="assets/images/Homepage/Custom-Jewellery-Surrey-BC.webp" alt="Custom Jewellery">
+                            <img src="/assets/images/Homepage/Custom-Jewellery-Surrey-BC.webp" alt="Custom Jewellery">
                         </div>
                         <h3 class="mega-menu-card-title">Custom Jewellery</h3>
                         <p class="mega-menu-card-desc">Bring your unique vision to life.</p>
@@ -76,21 +76,21 @@
     <div class="mobile-menu" aria-hidden="true">
         <div class="mobile-menu-inner">
             <nav class="mobile-nav" aria-label="Mobile navigation">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
+                <a href="/">Home</a>
+                <a href="/about/">About</a>
                 <div class="mobile-nav-accordion">
                     <button type="button" class="mobile-nav-accordion-trigger" aria-expanded="false" aria-controls="mobile-collections-list" data-nav-trigger>Collections</button>
                     <ul class="mobile-nav-accordion-list" id="mobile-collections-list" role="region" aria-label="Collections">
-                        <li><a href="/gold-jewellery">Gold Jewellery</a></li>
-                        <li><a href="/diamond-jewellery">Diamond Jewellery</a></li>
-                        <li><a href="/bridal-sets">Bridal Collection</a></li>
-                        <li><a href="/custom-jewellery">Custom Jewellery</a></li>
+                        <li><a href="/gold-jewellery/">Gold Jewellery</a></li>
+                        <li><a href="/diamond-jewellery/">Diamond Jewellery</a></li>
+                        <li><a href="/bridal-sets/">Bridal Collection</a></li>
+                        <li><a href="/custom-jewellery/">Custom Jewellery</a></li>
                     </ul>
                 </div>
                 <a href="/blog">Blogs</a>
-                <a href="live-gold-rates.html">Live Gold Rates</a>
+                <a href="/live-gold-rates/">Live Gold Rates</a>
             </nav>
-            <a href="contact.html" class="btn-outline">Contact Us</a>
+            <a href="/contact/" class="btn-outline">Contact Us</a>
         </div>
     </div>
             `.trim();
@@ -102,7 +102,7 @@
       <div class="footer-inner">
         <div class="footer-top">
           <div class="footer-col brand">
-            <img src="assets/images/Logo/bharat-jewellers-logo.webp" alt="Bharat Jewellers">
+            <img src="/assets/images/Logo/bharat-jewellers-logo.webp" alt="Bharat Jewellers">
             <span class="footer-locations">Surrey • Calgary • Edmonton • Dubai</span>
             <p>
               Timeless elegance, trusted for generations. Discover exquisite
@@ -112,10 +112,10 @@
 
           <div class="footer-col">
             <h4>Quick Links</h4>
-            <a href="faqs.html">FAQs</a>
-            <a href="disclaimer.html">Disclaimer</a>
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="terms-of-service.html">Terms of Service</a>
+            <a href="/faqs/">FAQs</a>
+            <a href="/disclaimer/">Disclaimer</a>
+            <a href="/privacy-policy/">Privacy Policy</a>
+            <a href="/terms-of-service/">Terms of Service</a>
           </div>
 
           <div class="footer-col">
@@ -157,28 +157,23 @@
         }
 
         const setActiveNav = () => {
-            const fileName = window.location.pathname.split('/').pop() || 'index.html';
-            const pathOnly = fileName.split('?')[0];
+            const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
             const links = document.querySelectorAll('.main-nav a, .mobile-nav a, .mobile-nav-accordion-list a');
 
             links.forEach((link) => {
                 const href = link.getAttribute('href');
-                if (!href || href.startsWith('#')) return;
-                const linkPath = href.split('?')[0].split('/').pop();
-                if (linkPath === pathOnly) link.classList.add('active');
+                if (!href || href.startsWith('#') || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
+                const normalizedLinkPath = href.replace(/\/+$/, '') || '/';
+                if (normalizedLinkPath === currentPath) link.classList.add('active');
             });
             const collectionsTrigger = document.querySelector('.nav-link-mega-trigger');
             if (collectionsTrigger && (
-                pathOnly === 'collections.html' ||
-                pathOnly === 'category.html' ||
-                pathOnly === 'gold-jewellery' ||
-                pathOnly === 'diamond-jewellery' ||
-                pathOnly === 'bridal-sets' ||
-                pathOnly === 'custom-jewellery' ||
-                pathOnly === 'gold-jewellery.html' ||
-                pathOnly === 'diamond-jewellery.html' ||
-                pathOnly === 'bridal-sets.html' ||
-                pathOnly === 'custom-jewellery.html'
+                currentPath === '/collections/' ||
+                currentPath === '/category/' ||
+                currentPath === '/gold-jewellery/' ||
+                currentPath === '/diamond-jewellery/' ||
+                currentPath === '/bridal-sets/' ||
+                currentPath === '/custom-jewellery/'
             )) {
                 collectionsTrigger.classList.add('active');
             }
