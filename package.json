@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/postbuild-sitemap-alias.mjs",
     "preview": "astro preview --host",
     "check": "astro check",
     "migrate-blog": "node scripts/migrate-wp-blog.mjs",
@@ -13,6 +13,7 @@
     "deploy": "npm run build"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
     "astro": "^5.7.0"
   },
   "devDependencies": {

@@ -1,16 +1,3 @@
 User-agent: *
 Allow: /
-
-# Disallow thank-you page (no need to index)
-Disallow: /thank-you.html
-
-# Legacy product URLs from old CMS / external links (return 410; not indexed)
-Disallow: /products/
-
-# WordPress-style blog noise (feeds, comment URLs, reply params)
-Disallow: /blog/*/feed/
-Disallow: /blog/*/comments/
-Disallow: /blog/*?replytocom=
-
-# Sitemap location (update domain if different)
 Sitemap: https://bharatjewellers.ca/sitemap.xml

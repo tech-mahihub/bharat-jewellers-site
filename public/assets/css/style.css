@@ -159,8 +159,23 @@ a:hover {
   justify-content: space-between;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.logo a {
+  display: inline-flex;
+  align-items: center;
+}
+
 .logo img {
+  display: block;
+  width: auto;
+  max-width: 100%;
   height: 46px;
+  object-fit: contain;
 }
 
 .main-nav {
@@ -476,16 +491,24 @@ a:hover {
   }
 
   .menu-toggle {
-    display: flex;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
   }
 
   .logo img {
     height: 36px;
   }
 
+  .site-header .logo {
+    flex: 1;
+    padding-right: 56px;
+  }
+
   .header-inner {
     min-height: 60px;
     position: relative;
+    gap: 10px;
   }
 
   .menu-toggle {
@@ -493,6 +516,15 @@ a:hover {
     right: 24px;
     top: 50%;
     transform: translateY(-50%);
+    flex-shrink: 0;
+    z-index: 401;
+  }
+
+  .site-header .menu-toggle span {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: var(--gold) !important;
   }
 
   .mobile-menu {
@@ -517,7 +549,8 @@ a:hover {
   }
 
   .logo img {
-    height: 34px;
+    height: 32px;
+    width: auto;
   }
 
   .menu-toggle {
@@ -4883,6 +4916,7 @@ footer {
     padding: 56px 0;
   }
 }
+
 
 .contact-page-stack {
   display: flex;

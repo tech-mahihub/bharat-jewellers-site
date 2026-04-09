@@ -14,6 +14,8 @@ interface Props {
   /** Open Graph title (e.g. article headline without site suffix) */
   ogTitle?: string;
   siteVerification?: string;
+  htmlClass?: string;
+  bodyClass?: string;
 }
 
 const {
@@ -26,13 +28,15 @@ const {
   keywords = "Bharat Jewellers, gold jewellery, diamond jewellery",
   ogTitle,
   siteVerification = "CZkkCUYXbJIu7SDSEvl92zX1aUJyZZCN_PBCsLgqssc",
+  htmlClass = "",
+  bodyClass = "",
 } = Astro.props;
 
 const socialTitle = ogTitle ?? title;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class={htmlClass}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -65,9 +69,12 @@ const socialTitle = ogTitle ?? title;
       gtag("config", "AW-16866621891");
     </script>
   </head>
-  <body>
+  <body class={bodyClass}>
     <SiteHeader />
-    <slot />
+    <main>
+      <slot />
+    </main>
+    <slot name="afterMain" />
     <SiteFooter />
 
     <a class="floating-whatsapp" href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
