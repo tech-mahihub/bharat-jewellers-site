@@ -1,3 +1,11 @@
+---
+import BlogCard from "../components/blog/BlogCard.astro";
+import { getCollection } from "astro:content";
+
+const latestBlogPosts = (await getCollection("blog"))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -344,30 +352,15 @@
                     <h2>Jewellery Blog &amp; Expert Guides</h2>
                 </div>
                 <div class="blog-grid">
-                    <article class="blog-card">
-                        <a href="https://bharatjewellers.ca/blog/gold-jewellery-surrey/" class="blog-image">
-                            <img src="/assets/images/Homepage/Bridal-Jewelry-Shopping-Tips.webp" alt="Bridal jewelry shopping tips">
-                        </a>
-                        <h3>Gold Jewellery Store Surrey</h3>
-                        <p>Find the best gold jewellery Surrey at Bharat Jewellers. Explore Indian gold jewellery with stunning designs &amp; top quality. Visit us today!</p>
-                        <a class="blog-link" href="https://bharatjewellers.ca/blog/gold-jewellery-surrey/">Read More</a>
-                    </article>
-                    <article class="blog-card">
-                        <a href="https://bharatjewellers.ca/blog/calgary-trusted-jewelry-store/" class="blog-image">
-                            <img src="/assets/images/Homepage/24K-Gold-Jewellery-Best-for-Investment.webp" alt="24K gold jewellery for investment">
-                        </a>
-                        <h3>Calgary Trusted Jewelry Store</h3>
-                        <p>Looking for a trusted jewelry store in Calgary? Look no further than Bharat Jewellers.</p>
-                        <a class="blog-link" href="https://bharatjewellers.ca/blog/calgary-trusted-jewelry-store/">Read More</a>
-                    </article>
-                    <article class="blog-card">
-                        <a href="https://bharatjewellers.ca/blog/jewelry-stores-edmonton-ab/" class="blog-image">
-                            <img src="/assets/images/Homepage/holiday-jewelry-gifts.jpg" alt="Holiday jewelry gifts">
-                        </a>
-                        <h3>Jewelry Stores Edmonton AB</h3>
-                        <p>Looking for jewelry stores in Edmonton? Discover Bharat Jewellers, newly opened July 2025 at 9358 34 Ave NW.</p>
-                        <a class="blog-link" href="https://bharatjewellers.ca/blog/jewelry-stores-edmonton-ab/">Read More</a>
-                    </article>
+                    {latestBlogPosts.map((post) => (
+                      <BlogCard
+                        title={post.data.title}
+                        description={post.data.description}
+                        image={post.data.image}
+                        imageAlt={post.data.title}
+                        href={`/blog/${post.id}/`}
+                      />
+                    ))}
                 </div>
             </div>
         </section>

@@ -8,9 +8,15 @@
     "build": "astro build",
     "preview": "astro preview --host",
     "check": "astro check",
+    "migrate-blog": "node scripts/migrate-wp-blog.mjs",
+    "fix-blog-links": "node scripts/fix-blog-internal-links.mjs",
     "deploy": "npm run build"
   },
   "dependencies": {
     "astro": "^5.7.0"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^5.5.11",
+    "turndown": "^7.2.4"
   }
 }

@@ -1,0 +1,134 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths({ paginate }) {
+  const posts = (await getCollection("blog")).sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+  );
+  return paginate(posts, { pageSize: 12 });
+}
+
+const { page } = Astro.props;
+const site = Astro.site ?? new URL("https://bharatjewellers.ca");
+const isFirstPage = page.currentPage === 1;
+const canonicalPath = isFirstPage ? "/blog/" : `/blog/${page.currentPage}/`;
+const canonicalURL = new URL(canonicalPath, site).href;
+const pageTitle = isFirstPage
+  ? "Jewellery Blog & Expert Guides | Bharat Jewellers"
+  : `Jewellery Blog & Expert Guides - Page ${page.currentPage} | Bharat Jewellers`;
+const pageDescription =
+  "Tips, guides, and stories about gold, diamond, and bridal jewellery from Bharat Jewellers—Surrey, Calgary & Edmonton.";
+
+const pageNumbers = Array.from({ length: page.lastPage }, (_, i) => i + 1);
+
+const blogJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  name: "Bharat Jewellers Blog",
+  description: pageDescription,
+  url: canonicalURL,
+  publisher: {
+    "@type": "Organization",
+    name: "Bharat Jewellers",
+    url: "https://bharatjewellers.ca",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://bharatjewellers.ca/assets/images/Logo/bharat-jewellers-logo.webp",
+    },
+  },
+  blogPost: page.data.map((post) => ({
+    "@type": "BlogPosting",
+    headline: post.data.title,
+    description: post.data.description,
+    datePublished: post.data.date.toISOString(),
+    url: new URL(`/blog/${post.id}/`, site).href,
+    image: post.data.image.startsWith("http")
+      ? post.data.image
+      : new URL(post.data.image, site).href,
+  })),
+};
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  canonicalURL={canonicalURL}
+  ogImage="https://bharatjewellers.ca/assets/images/Logo/bharat-jewellers-logo.webp"
+  ogType="website"
+  ogTitle="Jewellery Blog & Expert Guides"
+  keywords="Bharat Jewellers blog, gold jewellery Canada, diamond jewellery guides, Surrey Calgary Edmonton jeweller"
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(blogJsonLd)} />
+
+  <main class="blog-page">
+    <section class="blog-page-hero">
+      <div class="blog-page-container">
+        <div class="blog-hero">
+          <h1 class="blog-heading">Jewellery Blog &amp; Expert Guides</h1>
+          <p class="blog-subheading">Insights on gold, diamonds, bridal jewellery, and shopping with confidence across our Canadian showrooms.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-listing-section">
+      <div class="blog-page-container">
+        <div class="blog-lux-grid" role="list">
+          {page.data.map((post) => (
+            <article class="blog-lux-card blog-card" role="listitem">
+              <a href={`/blog/${post.id}/`} class="blog-lux-image-link">
+                <img
+                  src={post.data.image}
+                  alt={post.data.title}
+                  loading="lazy"
+                  width="640"
+                  height="400"
+                />
+              </a>
+              <div class="blog-card-content">
+                <h3><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+                <p>{post.data.description}</p>
+                <p class="blog-lux-date">
+                  <time datetime={post.data.date.toISOString()}>
+                    {post.data.date.toLocaleDateString("en-CA", {
+                      year: "numeric",
+                      month: "short",
+                      day: "numeric",
+                    })}
+                  </time>
+                </p>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        {page.lastPage > 1 && (
+          <nav class="pagination" aria-label="Blog pagination">
+            {page.currentPage > 1 ? (
+              <a href={page.currentPage - 1 === 1 ? "/blog/" : `/blog/${page.currentPage - 1}/`} rel="prev">Previous</a>
+            ) : (
+              <span class="is-disabled">Previous</span>
+            )}
+
+            {pageNumbers.map((num) => (
+              <a
+                href={num === 1 ? "/blog/" : `/blog/${num}/`}
+                class:list={{ active: num === page.currentPage }}
+                aria-current={num === page.currentPage ? "page" : undefined}
+              >
+                {num}
+              </a>
+            ))}
+
+            {page.currentPage < page.lastPage ? (
+              <a href={`/blog/${page.currentPage + 1}/`} rel="next">Next</a>
+            ) : (
+              <span class="is-disabled">Next</span>
+            )}
+          </nav>
+        )}
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+

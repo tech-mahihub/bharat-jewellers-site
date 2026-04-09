@@ -1,0 +1,117 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+interface Props {
+  post: CollectionEntry<"blog">;
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const site = Astro.site ?? new URL("https://bharatjewellers.ca");
+const canonicalURL = new URL(`/blog/${post.id}/`, site).href;
+const absoluteImage = post.data.image.startsWith("http")
+  ? post.data.image
+  : new URL(post.data.image, site).href;
+
+const titleBase = post.data.title.replace(/\s*\|\s*Bharat Jewellers\s*$/i, "").trim();
+const pageTitle = `${titleBase} | Bharat Jewellers`;
+const formattedDate = post.data.date.toLocaleDateString("en-CA", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+
+const blogPostingJson = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.date.toISOString(),
+  dateModified: post.data.date.toISOString(),
+  image: absoluteImage,
+  author: {
+    "@type": "Organization",
+    name: "Bharat Jewellers",
+    url: "https://bharatjewellers.ca",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Bharat Jewellers",
+    url: "https://bharatjewellers.ca",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://bharatjewellers.ca/assets/images/Logo/bharat-jewellers-logo.webp",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": canonicalURL,
+  },
+};
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={post.data.description}
+  canonicalURL={canonicalURL}
+  ogImage={absoluteImage}
+  ogType="article"
+  articlePublishedTime={post.data.date.toISOString()}
+  ogTitle={post.data.title}
+  keywords="Bharat Jewellers, gold jewellery, diamond jewellery, jewellery blog Canada"
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(blogPostingJson)} />
+  <main>
+    <article class="blog-article-page">
+      <div class="container blog-layout-container">
+        <div class="blog-content blog-article-intro">
+          <nav class="blog-breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span aria-hidden="true"> / </span>
+            <a href="/blog/">Blog</a>
+            <span aria-hidden="true"> / </span>
+            <span class="blog-breadcrumb-current">{post.data.title}</span>
+          </nav>
+          <header class="blog-article-hero">
+            <p class="blog-article-date">
+              <time datetime={post.data.date.toISOString()}>{formattedDate}</time>
+            </p>
+            <h1>{post.data.title}</h1>
+            <p class="blog-article-excerpt">{post.data.description}</p>
+          </header>
+        </div>
+
+        <figure class="blog-article-featured">
+          <img
+            src={post.data.image}
+            alt={post.data.title}
+            width="1200"
+            height="630"
+            loading="eager"
+            class="blog-article-featured-img"
+          />
+        </figure>
+
+        <div class="blog-article-body blog-prose blog-content">
+          <Content />
+        </div>
+
+        <div class="blog-content">
+          <p class="blog-article-back">
+            <a href="/blog/">← Back to blog</a>
+          </p>
+        </div>
+      </div>
+    </article>
+  </main>
+</BaseLayout>

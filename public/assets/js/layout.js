@@ -23,7 +23,7 @@
                     <li class="nav-item-has-mega">
                         <a href="/collections/" class="nav-link-mega-trigger">Collections</a>
                     </li>
-                    <li><a href="/blog">Blogs</a></li>
+                    <li><a href="/blog/">Blogs</a></li>
                     <li><a href="/live-gold-rates/">Live Gold Rates</a></li>
                 </ul>
             </nav>
@@ -87,7 +87,7 @@
                         <li><a href="/custom-jewellery/">Custom Jewellery</a></li>
                     </ul>
                 </div>
-                <a href="/blog">Blogs</a>
+                <a href="/blog/">Blogs</a>
                 <a href="/live-gold-rates/">Live Gold Rates</a>
             </nav>
             <a href="/contact/" class="btn-outline">Contact Us</a>
@@ -112,6 +112,7 @@
 
           <div class="footer-col">
             <h4>Quick Links</h4>
+            <a href="/blog/">Blog</a>
             <a href="/faqs/">FAQs</a>
             <a href="/disclaimer/">Disclaimer</a>
             <a href="/privacy-policy/">Privacy Policy</a>
@@ -156,68 +157,7 @@
             `.trim();
         }
 
-        const setActiveNav = () => {
-            const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
-            const links = document.querySelectorAll('.main-nav a, .mobile-nav a, .mobile-nav-accordion-list a');
-
-            links.forEach((link) => {
-                const href = link.getAttribute('href');
-                if (!href || href.startsWith('#') || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
-                const normalizedLinkPath = href.replace(/\/+$/, '') || '/';
-                if (normalizedLinkPath === currentPath) link.classList.add('active');
-            });
-            const collectionsTrigger = document.querySelector('.nav-link-mega-trigger');
-            if (collectionsTrigger && (
-                currentPath === '/collections/' ||
-                currentPath === '/category/' ||
-                currentPath === '/gold-jewellery/' ||
-                currentPath === '/diamond-jewellery/' ||
-                currentPath === '/bridal-sets/' ||
-                currentPath === '/custom-jewellery/'
-            )) {
-                collectionsTrigger.classList.add('active');
-            }
-        };
-
-        setActiveNav();
-
-        // Mega menu: show on hover of Collections or the dropdown; use header class so menu is positioned from header baseline
-        (function initMegaMenu() {
-            const header = document.querySelector('.site-header');
-            const navItem = document.querySelector('.nav-item-has-mega');
-            const megaMenu = document.querySelector('.mega-menu');
-            if (!header || !navItem || !megaMenu) return;
-            var closeTimer = null;
-            function open() {
-                if (closeTimer) clearTimeout(closeTimer);
-                closeTimer = null;
-                header.classList.add('mega-menu-open');
-            }
-            function close() {
-                closeTimer = setTimeout(function() {
-                    header.classList.remove('mega-menu-open');
-                }, 80);
-            }
-            navItem.addEventListener('mouseenter', open);
-            navItem.addEventListener('mouseleave', close);
-            megaMenu.addEventListener('mouseenter', open);
-            megaMenu.addEventListener('mouseleave', close);
-        })();
-
-        // Mobile: Collections accordion
-        (function initMobileAccordion() {
-            document.querySelectorAll('.mobile-nav-accordion-trigger').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    const list = document.getElementById(btn.getAttribute('aria-controls'));
-                    if (!list) return;
-                    const expanded = btn.getAttribute('aria-expanded') === 'true';
-                    btn.setAttribute('aria-expanded', String(!expanded));
-                    list.hidden = expanded;
-                });
-            });
-            const list = document.getElementById('mobile-collections-list');
-            if (list) list.hidden = true;
-        })();
+        // Nav active states, mega menu, mobile accordion: see main.js (initSiteNavEnhancements)
     }
 
     if (document.readyState === 'loading') {
