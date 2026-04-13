@@ -16,7 +16,7 @@ At [Bharat Jewellers](/), we’re proud to help customers in Calgary and Surrey 
 
 When it comes to choosing jewelry gifts for birthday celebrations for her, the options are endless—but the most meaningful gifts come from the heart. Whether she loves classic styles or modern elegance, a well-chosen piece of jewelry can light up her entire day.
 
-A dainty gold chain, a sparkling diamond pendant, or a custom name necklace can make her feel truly special. At [Bharat Jewellers in Surrey](https://g.co/kgs/gMWCt75) and [New Bharat Jewellers in Calgary](https://g.co/kgs/tCWvp3B), we help you find pieces that match her style and personality.
+A dainty gold chain, a sparkling diamond pendant, or a custom name necklace can make her feel truly special. At [Bharat Jewellers in Surrey](/surrey/) and [New Bharat Jewellers in Calgary](/calgary/), we help you find pieces that match her style and personality.
 
 You can also explore gemstone jewelry based on her birth month—like a sapphire ring for September or an emerald bracelet for May. These personal touches show you’ve put thought into her gift and add a deeper connection to the piece.
 

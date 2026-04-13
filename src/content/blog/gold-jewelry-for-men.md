@@ -112,15 +112,15 @@ For example, a pair of 14K gold cufflinks or a gold tie clip adds a touch of lux
 
 Thanks to Canada’s multicultural market, men have many choices when it comes to finding the perfect gold accessory. Major Canadian cities such as **Surrey, Calgary, and Edmonton** boast reputable jewelers who cater to diverse needs – from western wedding bands to **Indian gold jewellery**.
 
-[**Bharat Jewellers – Best Jewelry Surrey**](https://g.co/kgs/HcGZJiN)
+[**Bharat Jewellers - Best Jewelry Surrey**](/surrey/)
 Address: 155-8120 128 St, Surrey, BC V3W 1R1, Canada
 Phone: +1 604-593-1111
 
-**[New Bharat Jewellers – Best Jewelry Calgary](https://g.co/kgs/fYp1T8Z)
+**[New Bharat Jewellers - Best Jewelry Calgary](/calgary/)
 **Address: Cityscape Landing Plaza, 4310 104 Ave NE #1130, Calgary, AB T3N 1W1, Canada
 Phone: +1 403-558-0455
 
-[**Bharat Jewellers – Best Jewelry Edmonton**](https://g.co/kgs/HcGZJiN)
+[**Bharat Jewellers - Best Jewelry Edmonton**](/edmonton/)
 Address: 9358 34 Ave NW, Edmonton, AB T6E 5X8, Canada
 Phone: [+1 (780) 262-6111](tel:17802626111)
 

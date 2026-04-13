@@ -80,7 +80,7 @@ If you’re looking for a **beautiful yet affordable** piece, Bharat Jewellers o
 
 ## How Much Money is Spent on Jewelry on Valentine’s Day?
 
-Jewelry prices can sometimes increase around Valentine’s Day due to high demand. However, at [Bharat Jewellers](https://www.google.com/search?q=Bharat+Jeweller+surrey&rlz=1C1CHBF_enIN1111IN1111&oq=bharat&gs_lcrp=EgZjaHJvbWUqBggDEEUYOzIGCAAQRRg8MgYIARBFGDwyCggCEC4YsQMYgAQyBggDEEUYOzIGCAQQRRg8MgYIBRBFGDwyBggGEEUYQTIGCAcQRRg80gEINDgyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8), we offer **exclusive Valentine’s Day sales for jewelry**, ensuring you get the best value for your money.
+Jewelry prices can sometimes increase around Valentine’s Day due to high demand. However, at [Bharat Jewellers](/surrey/), we offer **exclusive Valentine’s Day sales for jewelry**, ensuring you get the best value for your money.
 
 ## How to Choose the Perfect Valentine’s Day Jewelry
 
@@ -146,4 +146,4 @@ You can visit our store or shop online to explore our Valentine’s Day collecti
 
 Valentine’s Day is all about celebrating love, and a **beautiful piece of jewelry** is the perfect way to express it. Whether you're looking for a **bracelet for Valentine’s**, a **necklace for Valentine’s**, or an **exquisite ring**, Bharat Jewellers has **the perfect Valentine’s gift** waiting for you.
 
-**Don’t wait—shop at [Bharat Jewellers](https://g.co/kgs/DpKFyzo) today and make this celebration unforgettable!**
+**Don’t wait—shop at [Bharat Jewellers](/surrey/) today and make this celebration unforgettable!**

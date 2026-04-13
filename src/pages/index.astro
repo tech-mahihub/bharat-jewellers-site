@@ -11,6 +11,7 @@ const ogTitle = "Bharat Jewellers - Premium Luxury Jewellery | Gold & Diamond Co
 const keywords = "Bharat Jewellers, gold jewellery, diamond jewellery, bridal jewellery, custom jewellery Surrey Calgary Edmonton, luxury jewellery Canada";
 const siteVerification = "KbW8p7WJtrieLKGeFCJGMHzrcnOqCphaQeuNQpwUOAE";
 const latestBlogPosts = (await getCollection("blog"))
+  .filter((p) => !p.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, 3);
 ---

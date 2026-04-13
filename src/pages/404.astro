@@ -22,10 +22,10 @@ const bodyClass = "bg-background-dark font-sans text-white min-h-screen";
 >
   <Fragment slot="head">
     <meta name="robots" content="noindex, nofollow"/>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
     <script id="tailwind-config">
-      tailwind.config = {
+      window.tailwind = window.tailwind || {};
+      window.tailwind.config = {
         darkMode: "class",
         theme: {
           extend: {

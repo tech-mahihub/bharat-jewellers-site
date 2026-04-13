@@ -6,7 +6,7 @@ image: "/assets/images/blog/wp-import/2025/07/Bridal-Jewelry-Shopping-Tips.webp"
 ---
 Your wedding day is one of the most important moments of your life — and every detail matters, especially your jewelry. From the sparkle of gold to the shine of diamonds, the right pieces complete your bridal look and become part of memories that last forever. But with so many choices out there, how do you pick the perfect jewelry?
 
-These **bridal jewelry shopping tips** will help you find timeless, meaningful pieces that match your style, your outfit, and your love story. Whether you’re shopping in **[Surrey at Bharat Jewellers](https://g.co/kgs/Wz7Y2He)** or in **[Calgary at New Bharat Jewellers](https://g.co/kgs/1fUbXVb)**, we’re here to guide you every step of the way.
+These **bridal jewelry shopping tips** will help you find timeless, meaningful pieces that match your style, your outfit, and your love story. Whether you’re shopping in **[Surrey at Bharat Jewellers](/surrey/)** or in **[Calgary at New Bharat Jewellers](/calgary/)**, we’re here to guide you every step of the way.
 
 Let’s make sure your wedding jewelry isn’t just beautiful — but also perfect for you.
 

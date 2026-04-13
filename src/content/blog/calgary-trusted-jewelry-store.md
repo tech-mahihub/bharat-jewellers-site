@@ -49,11 +49,11 @@ We don’t just talk the talk — our customers walk the walk. Here’s what som
 
 > _"Very good and friendly staff, very patient and helpful. My purchase and customizing to the length was super easy. Really great collection and designs in the city. Please keep bringing new and trendy Western designs. Staff and collection is the best here in the city. I had gone to other jewelry store before Bharat Jewllers and experience with staff’s friendliness was the best out of all."_
 >
-> — _[Bubbles Blue](https://www.google.com/maps/contrib/103598054704027364899/reviews?hl=en-GB), Calgary_
+> — _[Bubbles Blue](/calgary/), Calgary_
 
 > _"Every time we visit, it's a great experience.The staff is always friendly, attentive, and goes above and beyond to make sure everything is perfect. The customer service is top-notch. Highly recommend to anyone looking for a great place with an awesome and excellent service must visit.🌟"_
 >
-> — _[Vaishali](https://www.google.com/maps/contrib/109028047605437367368/reviews?hl=en-GB), Calgary_
+> — _[Vaishali](/calgary/), Calgary_
 
 \[trustindex no-registration=google\]
 
@@ -73,7 +73,7 @@ Looking for the best place to buy gold, diamonds, or custom jewelry in Calgary? 
 
 We’re proud to be your **trusted jewelry store in Calgary**, and we’re excited to help you find the perfect piece to celebrate life’s beautiful moments. Whether you’re here for an engagement ring, wedding jewelry, or something special for yourself or a loved one, we’re here to make sure your experience is as memorable as the jewelry you choose.
 
-**✨ Visit [Bharat Jewellers in Calgary](https://g.co/kgs/JFgdWBc) — Where Trust Meets Tradition. ✨**
+**✨ Visit [Bharat Jewellers in Calgary](/calgary/) — Where Trust Meets Tradition. ✨**
 
 <h2 class="faq-heading">Frequently Asked Questions</h2>
 

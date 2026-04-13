@@ -74,11 +74,11 @@ Many ask about the price of a diamond ring. The cost depends on:
 
 At Bharat Jewellers, you’ll find certified natural-diamonds at honest prices, whether you want a bold centerpiece or a minimalist style.
 
-Read: [Types of Engagement Rings: Find Your Perfect Style](/wp-admin/post.php?post=989488&action=edit)
+Read: [Types of Engagement Rings: Find Your Perfect Style](/blog/types-of-engagement-rings/)
 
 ## Where to Buy Natural-Diamonds in Surrey & Calgary
 
-Looking for authentic, high-quality diamonds? [Visit Bharat Jewellers in Surrey](https://g.co/kgs/3ofVuj3), BC or Calgary, AB.
+Looking for authentic, high-quality diamonds? [Visit Bharat Jewellers in Surrey](/surrey/), BC or Calgary, AB.
 
 ### Why Choose [Bharat Jewellers](/blog/bharat-jewellers-store-in-canada/)?
 

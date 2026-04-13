@@ -86,7 +86,7 @@ Surrey is home to several jewelers that specialize in conflict-free diamonds and
 
 If you want a ring that truly stands out, consider designing a custom piece. Many jewelers in Surrey offer bespoke services, allowing you to select every detail, from the diamond to the setting and the band.
 
-A custom engagement ring reflects your partner’s style and adds a personal touch that makes it one-of-a-kind. [Contact us](/contact-us/) or [Find us on Map](https://www.google.com/maps/dir//Bharat+Jeweller/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x5485d99f5393f76d:0x8c72fcf4706f0ccb?sa=X&ved=1t:3061&ictx=111) for a Custom Engagement ring in Surrey.
+A custom engagement ring reflects your partner’s style and adds a personal touch that makes it one-of-a-kind. [Contact us](/contact/) or [Find us on Map](/surrey/) for a Custom Engagement ring in Surrey.
 
 #### 10\. Plan Ahead
 

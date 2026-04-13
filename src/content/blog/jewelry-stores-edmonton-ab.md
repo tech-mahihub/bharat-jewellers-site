@@ -273,7 +273,7 @@ As we establish ourselves among **jewelry stores Edmonton** trusts:
 
 ## Contact Bharat Jewellers Today
 
-Ready to discover Edmonton's newest jewelry destination? [Visit Bharat Jewellers](https://g.co/kgs/sjU41kS) and experience the difference that passion, quality, and dedication make.
+Ready to discover Edmonton's newest jewelry destination? [Visit Bharat Jewellers](/edmonton/) and experience the difference that passion, quality, and dedication make.
 
 -   **Address:** 9358 34 Ave NW, Edmonton, AB T6E 5X8, Canada
 -   **Phone:** +1 604-771-5721

@@ -56,11 +56,11 @@ Choosing between **Gold vs Silver** comes down to your personal style, budget, a
 
 At [**Bharat Jewellers**](/blog/bharat-jewellers-store-in-canada/), we have a wide selection of both gold and silver jewelry, so you can find the perfect piece to match your style. Whether you're looking for a stunning engagement ring, a gift, or something to wear every day, we have you covered. Visit us today to see our collection and find the perfect metal for your next piece of jewelry!
 
-[**Bharat Jewellers – Best Jewelry Surrey**](https://g.co/kgs/HcGZJiN)
+[**Bharat Jewellers - Best Jewelry Surrey**](/surrey/)
 Address: 155-8120 128 St, Surrey, BC V3W 1R1, Canada
 Phone: +1 604-593-1111
 
-**[New Bharat Jewellers – Best Jewelry Calgary](https://g.co/kgs/fYp1T8Z)
+**[New Bharat Jewellers - Best Jewelry Calgary](/calgary/)
 **Address: Cityscape Landing Plaza, 4310 104 Ave NE #1130, Calgary, AB T3N 1W1, Canada
 Phone: +1 403-558-0455
 

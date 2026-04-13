@@ -117,4 +117,4 @@ At **[Bharat Jewellers,](/blog/bharat-jewellers-store-in-canada/)** we offer exp
 
 Learning how to choose diamond jewelry doesn’t have to be overwhelming. By understanding your personal style, the 4 Cs of diamonds, and shopping with trusted jewelers like Bharat Jewellers, you can find a piece that truly reflects your personality.
 
-Visit Bharat Jewellers today to explore our stunning collection in [Surrey](https://g.co/kgs/ytBwsXb) and [Calgary](https://g.co/kgs/PAuZ59J). Let us help you find the perfect diamond jewelry for any occasion!
+Visit Bharat Jewellers today to explore our stunning collection in [Surrey](/surrey/) and [Calgary](/calgary/). Let us help you find the perfect diamond jewelry for any occasion!
