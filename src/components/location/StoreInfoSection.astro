@@ -1,0 +1,93 @@
+---
+interface Props {
+  address: string;
+  phoneDisplay: string;
+  phoneHref: string;
+  email: string;
+  hours: string[];
+  mapsLink: string;
+  mapSrc: string;
+  mapTitle: string;
+}
+
+const { address, phoneDisplay, phoneHref, email, hours, mapsLink, mapSrc, mapTitle } = Astro.props;
+---
+
+<section class="location-store-panel" aria-label="Store information and map">
+  <div class="location-store-card">
+    <div class="location-store-item">
+      <div class="location-store-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"></path>
+          <circle cx="12" cy="10" r="2.6"></circle>
+        </svg>
+      </div>
+      <div class="location-store-text">
+        <p class="location-store-label">Store Address</p>
+        <p class="location-store-value">{address}</p>
+      </div>
+    </div>
+
+    <div class="location-store-item">
+      <div class="location-store-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M22 16.9v2.8a2.2 2.2 0 0 1-2.4 2.2A21.5 21.5 0 0 1 10.2 18a21.1 21.1 0 0 1-6.1-6.1 21.5 21.5 0 0 1-3.9-9.5A2.2 2.2 0 0 1 2.4 0h2.8a2.2 2.2 0 0 1 2.1 1.8c.2 1.3.5 2.6 1 3.8a2.2 2.2 0 0 1-.5 2.3L6.6 9.1a17.5 17.5 0 0 0 8.3 8.3l1.2-1.2a2.2 2.2 0 0 1 2.3-.5c1.2.5 2.5.8 3.8 1a2.2 2.2 0 0 1 1.8 2.2z"></path>
+        </svg>
+      </div>
+      <div class="location-store-text">
+        <p class="location-store-label">Phone Number</p>
+        <a class="location-store-value location-store-link" href={phoneHref}>{phoneDisplay}</a>
+      </div>
+    </div>
+
+    <div class="location-store-item">
+      <div class="location-store-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M12 7v5l3 2"></path>
+        </svg>
+      </div>
+      <div class="location-store-text">
+        <p class="location-store-label">Opening Hours</p>
+        <div class="location-store-hours">
+          {hours.map((line) => (
+            <p class="location-store-value">{line}</p>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <div class="location-store-item">
+      <div class="location-store-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M3 6h18v12H3z"></path>
+          <path d="m3 7 9 7 9-7"></path>
+        </svg>
+      </div>
+      <div class="location-store-text">
+        <p class="location-store-label">Email</p>
+        <a class="location-store-value location-store-link" href={`mailto:${email}`}>{email}</a>
+      </div>
+    </div>
+
+    <div class="location-store-cta">
+      <a class="location-store-btn location-store-btn-primary" href={mapsLink} target="_blank" rel="noopener noreferrer">
+        Visit Store
+      </a>
+      <a class="location-store-btn location-store-btn-secondary" href="/collections/">
+        Explore Collections
+      </a>
+    </div>
+  </div>
+
+  <div class="location-store-map-wrap">
+    <iframe
+      class="location-store-map"
+      src={mapSrc}
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title={mapTitle}
+    ></iframe>
+  </div>
+</section>

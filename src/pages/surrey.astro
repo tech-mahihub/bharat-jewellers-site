@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import StoreInfoSection from "../components/location/StoreInfoSection.astro";
 const pageTitle = "Bharat Jewellers – Surrey Store Location";
 const pageDescription = "Visit Bharat Jewellers Surrey at 155-8120 128 Street. Gold, diamond & bridal jewellery. Open Mon-Sat 10am-8pm, Sun 11am-7pm. Call (604) 593-1111.";
 const canonicalURL = "https://bharatjewellers.ca/surrey/";
@@ -75,89 +76,27 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <h1 class="text-4xl font-display font-bold leading-tight text-white md:text-6xl">
                         Bharat Jewellers – Surrey
                       </h1>
-                      <div class="mt-4 flex items-center gap-3">
-                        <span class="material-symbols-outlined text-primary">location_on</span>
+                      <div class="mt-4 location-hero-subline">
+                        <svg class="location-hero-pin" viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"></path>
+                          <circle cx="12" cy="10" r="2.6"></circle>
+                        </svg>
                         <p class="text-lg font-medium text-primary font-sans">Gold &amp; Diamond Jewellery Store in Surrey BC</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <!-- Store Information Block -->
-                <div
-                  class="my-16 rounded-xl border border-primary/30 bg-[#111111] p-8 shadow-2xl shadow-primary/10 md:p-10 location-info"
-                >
-                  <!-- Left Side: Details -->
-                  <div class="flex flex-col gap-6">
-                    <div class="grid grid-cols-[auto_1fr] items-center gap-x-4 border-b border-primary/20 pb-4">
-                      <span class="material-symbols-outlined text-2xl text-primary">location_on</span>
-                      <div>
-                        <p class="text-sm text-white/70">Store Address</p>
-                        <p class="text-base text-white">
-                          155-8120 128 Street, Surrey, BC V3W 1R1
-                        </p>
-                      </div>
-                    </div>
-                    <div class="grid grid-cols-[auto_1fr] items-center gap-x-4 border-b border-primary/20 pb-4">
-                      <span class="material-symbols-outlined text-2xl text-primary">call</span>
-                      <div>
-                        <p class="text-sm text-white/70">Phone Number</p>
-                        <a class="text-base text-white transition-colors hover:text-primary" href="tel:+16045931111"
-                          >+1 (604) 593-1111</a
-                        >
-                      </div>
-                    </div>
-                    <div class="grid grid-cols-[auto_1fr] items-start gap-x-4 border-b border-primary/20 pb-4">
-                      <span class="material-symbols-outlined mt-1 text-2xl text-primary">schedule</span>
-                      <div>
-                        <p class="text-sm text-white/70">Opening Hours</p>
-                        <p class="text-base text-white">Mon - Sat: 10:00 AM - 8:00 PM</p>
-                        <p class="text-base text-white">Sun: 11:00 AM - 7:00 PM</p>
-                      </div>
-                    </div>
-                    <div class="grid grid-cols-[auto_1fr] items-center gap-x-4">
-                      <span class="material-symbols-outlined text-2xl text-primary">email</span>
-                      <div>
-                        <p class="text-sm text-white/70">Email</p>
-                        <a
-                          class="text-base text-white transition-colors hover:text-primary"
-                          href="mailto:surrey@bharatjewellers.ca"
-                          >surrey@bharatjewellers.ca</a
-                        >
-                      </div>
-                    </div>
-                    <!-- CTA Buttons -->
-                    <div class="mt-8 flex flex-col items-center gap-4 border-t border-primary/20 pt-6 sm:flex-row">
-                      <a
-                        class="flex h-12 w-full min-w-[84px] max-w-[480px] flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-6 text-base font-bold leading-normal tracking-[0.015em] text-background-dark transition-opacity hover:opacity-90 sm:w-auto"
-                        href="https://maps.google.com/?q=155-8120%20128%20Street,%20Surrey,%20BC%20V3W%201R1"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <span class="truncate">Visit Store</span>
-                      </a>
-                      <a
-                        class="flex h-12 w-full min-w-[84px] max-w-[480px] flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-lg border-2 border-white bg-transparent px-6 text-base font-bold leading-normal tracking-[0.015em] text-white transition-colors hover:bg-white hover:text-background-dark sm:w-auto"
-                        href="/collections/"
-                      >
-                        <span class="truncate">Explore Collections</span>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- Right Side: Map -->
-                  <div class="h-80 w-full overflow-hidden rounded-lg border border-primary/50 md:h-full">
-                    <iframe
-                      class="h-full w-full"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4388.83892178624!2d-122.86925592443409!3d49.150853407568654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d99f5393f76d%3A0x8c72fcf4706f0ccb!2sBharat%20Jeweller!5e0!3m2!1sen!2sin!4v1768889514593!5m2!1sen!2sin"
-                      width="600"
-                      height="450"
-                      style="border: 0"
-                      allowfullscreen=""
-                      loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"
-                      title="Bharat Jewellers Surrey location"
-                    ></iframe>
-                  </div>
-                </div>
+                <StoreInfoSection
+                  address="155-8120 128 Street, Surrey, BC V3W 1R1"
+                  phoneDisplay="+1 (604) 593-1111"
+                  phoneHref="tel:+16045931111"
+                  email="surrey@bharatjewellers.ca"
+                  hours={["Mon - Sat: 10:00 AM - 8:00 PM", "Sun: 11:00 AM - 7:00 PM"]}
+                  mapsLink="https://maps.google.com/?q=155-8120%20128%20Street,%20Surrey,%20BC%20V3W%201R1"
+                  mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4388.83892178624!2d-122.86925592443409!3d49.150853407568654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d99f5393f76d%3A0x8c72fcf4706f0ccb!2sBharat%20Jeweller!5e0!3m2!1sen!2sin!4v1768889514593!5m2!1sen!2sin"
+                  mapTitle="Bharat Jewellers Surrey location"
+                />
                 <!-- Gallery Section -->
                 <div class="my-20 location-section-block">
                   <h2 class="mb-8 text-center font-display text-3xl font-bold text-white">
@@ -168,7 +107,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <img
                         class="h-full w-full object-cover border-2 border-white/50 transition-all duration-300 group-hover:scale-105 group-hover:border-primary"
                         data-alt="Elegant display of diamond necklaces inside the showroom."
-                        src="/images/location/location-gallery-1.webp"
+                        src="/assets/images/Homepage/Gold-Jewellery-Collections.webp"
                         alt="Elegant display of diamond necklaces inside the showroom."
                       />
                     </div>
@@ -176,7 +115,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <img
                         class="h-full w-full object-cover border-2 border-white/50 transition-all duration-300 group-hover:scale-105 group-hover:border-primary"
                         data-alt="A close-up shot of a golden ring with intricate designs."
-                        src="/images/location/location-gallery-2.webp"
+                        src="/assets/images/Homepage/Diamond-Jewellery-Collections.webp"
                         alt="A close-up shot of a golden ring with intricate designs."
                       />
                     </div>
@@ -184,7 +123,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <img
                         class="h-full w-full object-cover border-2 border-white/50 transition-all duration-300 group-hover:scale-105 group-hover:border-primary"
                         data-alt="A collection of traditional Indian gold bangles."
-                        src="/images/location/location-gallery-3.webp"
+                        src="/assets/images/Homepage/Gold-Bridal-Sets.webp"
                         alt="A collection of traditional Indian gold bangles."
                       />
                     </div>
@@ -192,7 +131,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <img
                         class="h-full w-full object-cover border-2 border-white/50 transition-all duration-300 group-hover:scale-105 group-hover:border-primary"
                         data-alt="The modern and luxurious storefront of Bharat Jewellers."
-                        src="/images/location/location-gallery-4.webp"
+                        src="/assets/images/Homepage/Custom-Jewellery-Surrey-BC.webp"
                         alt="The modern and luxurious storefront of Bharat Jewellers."
                       />
                     </div>
@@ -200,7 +139,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <img
                         class="h-full w-full object-cover border-2 border-white/50 transition-all duration-300 group-hover:scale-105 group-hover:border-primary"
                         data-alt="A skilled jeweller working on a custom piece."
-                        src="/images/location/location-gallery-5.webp"
+                        src="/assets/images/Collections/bridal-gold-diamond-jewellery-sets-bharat-jewellers.webp"
                         alt="A skilled jeweller working on a custom piece."
                       />
                     </div>
@@ -208,7 +147,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <img
                         class="h-full w-full object-cover border-2 border-white/50 transition-all duration-300 group-hover:scale-105 group-hover:border-primary"
                         data-alt="Showcase of gold bridal sets in the Surrey showroom."
-                        src="https://bharatjewellers.ca/wp-content/uploads/2025/11/Gold-Bridal-Sets.webp"
+                        src="/assets/images/Collections/custom-made-gold-diamond-jewellery-bharat-jewellers.webp"
                         alt="Showcase of gold bridal sets in the Surrey showroom."
                       />
                     </div>
@@ -216,7 +155,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <img
                         class="h-full w-full object-cover border-2 border-white/50 transition-all duration-300 group-hover:scale-105 group-hover:border-primary"
                         data-alt="Diamond jewellery collection display with soft lighting."
-                        src="/assets/images/Locations/Diamond-Jewellery-Collections.webp"
+                        src="/assets/images/Collections/gold-necklaces-fine-craftsmanship-bharat-jewellers.webp"
                         alt="Diamond jewellery collection display with soft lighting."
                       />
                     </div>
@@ -224,7 +163,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <img
                         class="h-full w-full object-cover border-2 border-white/50 transition-all duration-300 group-hover:scale-105 group-hover:border-primary"
                         data-alt="Gold necklace collections arranged in a display case."
-                        src="https://bharatjewellers.ca/wp-content/uploads/2025/11/Gold-Jewellery-Collections.webp"
+                        src="/assets/images/Collections/gold-pendants-elegant-design-bharat-jewellers.webp"
                         alt="Gold necklace collections arranged in a display case."
                       />
                     </div>
@@ -232,66 +171,20 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                       <img
                         class="h-full w-full object-cover border-2 border-white/50 transition-all duration-300 group-hover:scale-105 group-hover:border-primary"
                         data-alt="Custom jewellery design experience at the showroom."
-                        src="https://bharatjewellers.ca/wp-content/uploads/2025/11/Custom-Jewellery-Surrey-BC.webp"
+                        src="/assets/images/Collections/gold-diamond-bracelets-bharat-jewellers.webp"
                         alt="Custom jewellery design experience at the showroom."
                       />
-                    </div>
-                  </div>
-                  <div class="mt-8 location-gallery-videos">
-                    <div class="aspect-[9/16] overflow-hidden rounded-lg border border-white/10">
-                      <video
-                        class="surrey-video h-full w-full object-cover"
-                        src="/assets/videos/Bharat-Jewel-vid1.mp4"
-                        poster="/images/location/location-gallery-1.webp"
-                        controls
-                        loop
-                        playsinline
-                        aria-label="Bharat Jewellers Surrey showroom video 1"
-                      ></video>
-                    </div>
-                    <div class="aspect-[9/16] overflow-hidden rounded-lg border border-white/10">
-                      <video
-                        class="surrey-video h-full w-full object-cover"
-                        src="/assets/videos/Bharat-Jewel-vid1.mp4"
-                        poster="/images/location/location-gallery-2.webp"
-                        controls
-                        loop
-                        playsinline
-                        aria-label="Bharat Jewellers Surrey showroom video 2"
-                      ></video>
-                    </div>
-                    <div class="aspect-[9/16] overflow-hidden rounded-lg border border-white/10">
-                      <video
-                        class="surrey-video h-full w-full object-cover"
-                        src="/assets/videos/Bharat-Jewel-vid1.mp4"
-                        poster="/images/location/location-gallery-3.webp"
-                        controls
-                        loop
-                        playsinline
-                        aria-label="Bharat Jewellers Surrey showroom video 3"
-                      ></video>
-                    </div>
-                    <div class="aspect-[9/16] overflow-hidden rounded-lg border border-white/10">
-                      <video
-                        class="surrey-video h-full w-full object-cover"
-                        src="/assets/videos/Bharat-Jewel-vid1.mp4"
-                        poster="/images/location/location-gallery-4.webp"
-                        controls
-                        loop
-                        playsinline
-                        aria-label="Bharat Jewellers Surrey showroom video 4"
-                      ></video>
                     </div>
                   </div>
                 </div>
                 <!-- Services Available Section -->
                 <div class="my-20 location-section-block">
-                  <h2 class="mb-8 text-center font-display text-3xl font-bold text-white">Services Available</h2>
+                  <h2 class="location-services-heading text-center font-display text-3xl font-bold text-white">Services Available</h2>
                   <div class="services-grid">
                     <div
                       class="flex flex-col items-center rounded-lg border border-primary/30 bg-[#111111] p-6 text-center transition-all hover:border-primary hover:shadow-2xl hover:shadow-primary/20"
                     >
-                      <span class="material-symbols-outlined mb-4 text-4xl text-primary">diamond</span>
+                      <svg class="location-service-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9 7 4h10l4 5-9 11L3 9z"></path><path d="M3 9h18"></path><path d="m9 9 3 11 3-11"></path></svg>
                       <h3 class="mb-2 font-display text-lg font-bold text-white">Custom Jewellery</h3>
                       <p class="text-sm text-white/70">
                         Bring your vision to life with our bespoke design services.
@@ -300,7 +193,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                     <div
                       class="flex flex-col items-center rounded-lg border border-primary/30 bg-[#111111] p-6 text-center transition-all hover:border-primary hover:shadow-2xl hover:shadow-primary/20"
                     >
-                      <span class="material-symbols-outlined mb-4 text-4xl text-primary">cleaning_services</span>
+                      <svg class="location-service-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6v4H9z"></path><path d="M6 7h12v3H6z"></path><path d="M8 10v9"></path><path d="M12 10v9"></path><path d="M16 10v9"></path><path d="M5 19h14"></path></svg>
                       <h3 class="mb-2 font-display text-lg font-bold text-white">Repair &amp; Cleaning</h3>
                       <p class="text-sm text-white/70">
                         Expert care to restore the brilliance of your treasured pieces.
@@ -309,7 +202,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                     <div
                       class="flex flex-col items-center rounded-lg border border-primary/30 bg-[#111111] p-6 text-center transition-all hover:border-primary hover:shadow-2xl hover:shadow-primary/20"
                     >
-                      <span class="material-symbols-outlined mb-4 text-4xl text-primary">stacks</span>
+                      <svg class="location-service-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 4 9 4-9 4-9-4 9-4z"></path><path d="m3 12 9 4 9-4"></path><path d="m3 16 9 4 9-4"></path></svg>
                       <h3 class="mb-2 font-display text-lg font-bold text-white">Bridal Styling</h3>
                       <p class="text-sm text-white/70">
                         Personalized guidance to find the perfect wedding jewellery.
@@ -318,7 +211,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
                     <div
                       class="flex flex-col items-center rounded-lg border border-primary/30 bg-[#111111] p-6 text-center transition-all hover:border-primary hover:shadow-2xl hover:shadow-primary/20"
                     >
-                      <span class="material-symbols-outlined mb-4 text-4xl text-primary">currency_exchange</span>
+                      <svg class="location-service-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h12"></path><path d="m13 5 3 3-3 3"></path><path d="M20 16H8"></path><path d="m11 13-3 3 3 3"></path><circle cx="12" cy="12" r="9"></circle></svg>
                       <h3 class="mb-2 font-display text-lg font-bold text-white">Gold Exchange</h3>
                       <p class="text-sm text-white/70">
                         Get the best value for your old gold with our transparent process.
@@ -442,6 +335,7 @@ const bodyClass = "bg-background-dark font-sans text-[#F5F5F5] location-page";
               <div class="content-wrap">
                 <div class="about-cta-card">
                   <h2>Ready to visit Bharat Jewellers – Surrey?</h2>
+                  <p>Discover premium 22K &amp; 24K gold jewellery in Surrey at Bharat Jewellers. Explore bridal sets, necklaces, bangles, and custom designs crafted with certified hallmark gold. Visit our Surrey store or connect with our team for personalized assistance.</p>
                   <a class="btn-primary" href="/gold-jewellery/">Explore Gold Jewellery</a>
                 </div>
               </div>
