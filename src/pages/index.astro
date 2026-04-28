@@ -25,6 +25,7 @@ const latestBlogPosts = (await getCollection("blog"))
   ogTitle={ogTitle}
   keywords={keywords}
   siteVerification={siteVerification}
+  bodyClass="home-page"
 >
   <Fragment slot="head">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Bharat Jewellers","url":"https://bharatjewellers.ca","logo":"https://bharatjewellers.ca/assets/images/Logo/bharat-jewellers-logo.webp","sameAs":["https://www.instagram.com/bharatjewellerscalgary/","https://www.facebook.com/BharatJeweller/"],"address":[{"@type":"PostalAddress","streetAddress":"155-8120 128 Street","addressLocality":"Surrey","addressRegion":"BC","postalCode":"V3W 1R1"},{"@type":"PostalAddress","streetAddress":"4310 104 Ave NE #1130","addressLocality":"Calgary","addressRegion":"AB","postalCode":"T3N 1W1"},{"@type":"PostalAddress","streetAddress":"9358 34 Ave NW","addressLocality":"Edmonton","addressRegion":"AB","postalCode":"T6E 5X8"}]}</script>

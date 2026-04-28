@@ -143,8 +143,6 @@ Yes. Lab-grown options are shown with clear certification context so you can com
 
 Yes—repeat clients, referrals, and detailed after-care support underline that reputation.
 
-## Frequently Asked Questions
-
 ### Where can I buy top diamond jewellery in Calgary?
 
 Bharat Jewellers is one of the most trusted destinations to buy certified diamond jewellery in Calgary, offering engagement rings, bridal sets, and custom designs.
