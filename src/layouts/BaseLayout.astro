@@ -6,6 +6,7 @@ interface Props {
   title: string;
   description: string;
   canonicalURL: string;
+  robots?: string;
   /** Absolute URL for Open Graph / Twitter */
   ogImage: string;
   ogType?: "website" | "article";
@@ -22,6 +23,7 @@ const {
   title,
   description,
   canonicalURL,
+  robots = "index, follow",
   ogImage,
   ogType = "website",
   articlePublishedTime,
@@ -42,8 +44,11 @@ const socialTitle = ogTitle ?? title;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content={siteVerification} />
     <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
     {keywords && <meta name="keywords" content={keywords} />}
     <title>{title}</title>
+    <link rel="icon" href="/favicon.ico" sizes="32x32" type="image/x-icon" />
+    <link rel="icon" href="/assets/images/Logo/bharat-jewellers-logo.webp" type="image/webp" />
     <link rel="canonical" href={canonicalURL} />
     <meta property="og:title" content={socialTitle} />
     <meta property="og:description" content={description} />

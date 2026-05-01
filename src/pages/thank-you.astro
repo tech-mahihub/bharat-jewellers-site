@@ -6,6 +6,7 @@ const canonicalURL = "https://bharatjewellers.ca/thank-you/";
 const ogImage = "https://bharatjewellers.ca/assets/images/Logo/bharat-jewellers-logo.webp";
 const ogType = "website";
 const siteVerification = "CZkkCUYXbJIu7SDSEvl92zX1aUJyZZCN_PBCsLgqssc";
+const robots = "noindex, nofollow";
 const htmlClass = "dark";
 ---
 
@@ -16,10 +17,10 @@ const htmlClass = "dark";
   ogImage={ogImage}
   ogType={ogType === "article" ? "article" : "website"}
   siteVerification={siteVerification}
+  robots={robots}
   htmlClass={htmlClass}
 >
   <Fragment slot="head">
-    <meta name="robots" content="noindex, nofollow"/>
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
     <style>
         .material-symbols-outlined {

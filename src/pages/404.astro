@@ -6,6 +6,7 @@ const canonicalURL = "https://bharatjewellers.ca/404/";
 const ogImage = "https://bharatjewellers.ca/assets/images/Logo/bharat-jewellers-logo.webp";
 const ogType = "website";
 const siteVerification = "CZkkCUYXbJIu7SDSEvl92zX1aUJyZZCN_PBCsLgqssc";
+const robots = "noindex, nofollow";
 const htmlClass = "dark";
 const bodyClass = "bg-background-dark font-sans text-white min-h-screen";
 ---
@@ -17,11 +18,11 @@ const bodyClass = "bg-background-dark font-sans text-white min-h-screen";
   ogImage={ogImage}
   ogType={ogType === "article" ? "article" : "website"}
   siteVerification={siteVerification}
+  robots={robots}
   htmlClass={htmlClass}
   bodyClass={bodyClass}
 >
   <Fragment slot="head">
-    <meta name="robots" content="noindex, nofollow"/>
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
     <script id="tailwind-config">
       window.tailwind = window.tailwind || {};

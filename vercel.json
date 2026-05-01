@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.bharatjewellers.ca" }],
+      "destination": "https://bharatjewellers.ca/",
+      "permanent": true
+    },
+    {
+      "source": "/((?!robots\\.txt|sitemap\\.xml|sitemap-index\\.xml|favicon\\.ico).*)",
+      "has": [{ "type": "host", "value": "www.bharatjewellers.ca" }],
+      "destination": "https://bharatjewellers.ca/$1",
+      "permanent": true
+    }
+  ]
+}
