@@ -8,7 +8,7 @@ image: "/assets/images/blog/wp-import/2025/02/Valentines-Day-jewelry.webp"
 
 Valentine's Day 2025 is the perfect occasion to express love with a timeless gift. While chocolates and flowers are classic, nothing says "I love you" like a beautiful piece of **Valentine’s Day jewelry**. Jewelry is more than just an accessory; it's a lasting symbol of love, commitment, and appreciation.
 
-At **[Bharat Jewellers](/)**, we bring you a stunning collection of **jewelry for Valentine's Day**, crafted with elegance and meaning. Whether you're looking for a **[necklace](/our-collections/necklace/) for Valentine's**, a sparkling bracelet, or a classic ring, we have something to make your loved one feel special.
+At **[Bharat Jewellers](/)**, we bring you a stunning collection of **jewelry for Valentine's Day**, crafted with elegance and meaning. Whether you're looking for a **[necklace](/gold-jewellery/) for Valentine's**, a sparkling bracelet, or a classic ring, we have something to make your loved one feel special.
 
 ## Why Jewelry is the Perfect Valentine’s Day Gift
 
@@ -50,7 +50,7 @@ A delicate **necklace for Valentine’s** makes a stunning gift. Choose from:
 
 ![bracelet for valentine's day](/assets/images/blog/wp-import/2025/02/bracelet-for-valentines-day-1024x536.webp)
 
-A **[bracelet](/our-collections/bracelet/) for Valentine’s** is a beautiful way to express love. Consider:
+A **[bracelet](/gold-jewellery/) for Valentine’s** is a beautiful way to express love. Consider:
 
 -   **Charm bracelets** – Customize with meaningful charms.
 -   **Gold or silver bangles** – A sleek, modern choice.
@@ -66,7 +66,7 @@ For those looking to take their love to the next level, a ring is a romantic cho
 
 ### **4\. Earrings to Add Sparkle**
 
-Elegant [earrings](/our-collections/earrings/) complete any look and make a thoughtful gift. Some favorites include:
+Elegant [earrings](/gold-jewellery/) complete any look and make a thoughtful gift. Some favorites include:
 
 -   **Diamond studs** – A timeless piece for everyday elegance.
 -   **Hoop earrings** – Stylish and trendy.

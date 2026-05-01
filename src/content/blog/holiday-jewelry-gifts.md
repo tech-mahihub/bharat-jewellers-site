@@ -118,7 +118,7 @@ From **gold necklaces** that capture tradition to **diamond earrings** that shin
   </div>
   <div class="store-card">
     <img src="/assets/images/blog/wp-import/2025/07/Jewelry-Stores-Edmonton-1-1024x536.webp" alt="Jewelry Stores Edmonton" loading="lazy" />
-    <h3><a href="/bharat-jewellers-edmonton">Bharat Jewellers - Edmonton</a></h3>
+    <h3><a href="/edmonton/">Bharat Jewellers - Edmonton</a></h3>
     <p>9358 34 Ave NW, Edmonton, AB T6E 5X8, Canada</p>
     <p>+1 (604) 771-5721</p>
     <a href="https://www.google.com/maps?sca_esv=4770e45ba07b1168&amp;rlz=1C1CHBF_enIN1111IN1111&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiGWJoYXJhdCBqZXdlbGxlcnMgZWRtb250b25IAFAAWABwAHgBkAEAmAEAoAEAqgEAuAEMyAEAmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcA&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=in&amp;sa=X&amp;geocode=KZ3Dcq8-H6BTMXOIFoVWdE1U&amp;daddr=9358+34+Ave+NW,+Edmonton,+AB+T6E+5X8,+Canada" target="_blank" rel="noopener noreferrer">Get Directions ➥</a>

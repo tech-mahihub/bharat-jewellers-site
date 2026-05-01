@@ -53,7 +53,7 @@ Diamonds are no longer limited to their classic white counterparts. Colored diam
 -   **Blue and Pink Diamonds**: These diamonds are rare and stunning, offering a captivating pop of color to engagement rings or other fine jewelry pieces.
 -   **Colored Gemstones**: Emeralds, sapphires, and rubies are also growing in popularity, especially in vintage-style settings. These stones can add a vibrant and personalized touch to your jewelry.
 
-For those looking for something truly unique, colored [diamonds](/bharat-jewellers-blogs/diamond-jewelry-near-me/) and gemstones offer a distinctive alternative to traditional white diamonds. These stones also make great gifts, especially for milestone moments like anniversaries or special celebrations.
+For those looking for something truly unique, colored [diamonds](/blog/diamond-jewelry-near-me/) and gemstones offer a distinctive alternative to traditional white diamonds. These stones also make great gifts, especially for milestone moments like anniversaries or special celebrations.
 
 Read: [Bharat Jewellers: Best Gold, Diamond & Silver Jewelry in Surrey & Calgary](/blog/bharat-jewellers-store-in-canada/)
 

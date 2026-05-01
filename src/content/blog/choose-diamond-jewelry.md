@@ -12,7 +12,7 @@ At Bharat Jewellers, we specialize in certified diamond jewelry, offering expert
 
 When it comes to diamond jewelry, selecting the perfect piece isn’t just about sparkle – it’s about finding something that complements your style and personality. Whether you’re shopping for an engagement ring, a statement diamond necklace, or a pair of timeless earrings, understanding how to choose diamond jewelry is essential for making the right decision.
 
-At Bharat Jewellers, we believe that every diamond tells a story. Our guide will help you find certified [diamond jewelry](/bharat-jewellers-blogs/diamond-jewelry-near-me/) that matches your taste, lifestyle, and budget.
+At Bharat Jewellers, we believe that every diamond tells a story. Our guide will help you find certified [diamond jewelry](/blog/diamond-jewelry-near-me/) that matches your taste, lifestyle, and budget.
 
 ### 1\. Define Your Personal Style
 

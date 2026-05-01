@@ -16,7 +16,7 @@ Once a rough crystal arrives in the workshop, an experienced cutter studies its 
 
 Finally, an independent lab—often the [**GIA (Gemological Institute of America)**](https://www.gia.edu/)—grades the stone for Cut, Clarity, Colour and Carat. That report slips into the envelope we hand you with every purchase, so you always know exactly what rests in your ring box.
 
-Want to see examples? Have a peek at our **[Diamond Collection](/collections/diamond)** for a closer look.
+Want to see examples? Have a peek at our **[Diamond Collection](/diamond-jewellery/)** for a closer look.
 
 ### **Why Diamond Jewellery Is So Valuable: A Look at Diamond Types and Their Deeper Meaning**
 
@@ -46,7 +46,7 @@ When our family opened **Bharat Jewellers** in 1998, Surrey was much smaller, bu
 
 Word-of-mouth carried us beyond the South Asian community, and today we welcome shoppers from all walks of life. What we hear most often is, “It feels comfortable in here.” That’s the goal—an open conversation instead of a sales pitch.
 
-Check out our exclusive **[Bridal Jewellery Collection](/collections/bridal)** if you're planning something special.
+Check out our exclusive **[Bridal Jewellery Collection](/bridal-sets/)** if you're planning something special.
 
 ### **What Makes Bharat Jewellers a Truly Luxury Jewellery Store in Surrey**
 
@@ -59,7 +59,7 @@ Some **diamond jewelry stores** chase status with marble floors and hushed voice
 -   **Real guidance.** We’ll tell you if a smaller stone with a better cut will sparkle more than a larger one with an average cut, because jewellery should make _you_ shine, not just itself.
 
 
-You can read more about our journey and values on the **[About Us](/pages/about-us)** page.
+You can read more about our journey and values on the **[About Us](/about/)** page.
 
 ### **Adding a Personal Touch: Numerology & Diamond Jewellery Near Me**
 

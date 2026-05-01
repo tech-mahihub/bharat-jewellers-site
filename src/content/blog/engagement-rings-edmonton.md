@@ -14,7 +14,7 @@ _A dazzling solitaire engagement ring in a classic white-gold setting._ From spa
 
 ### Quality Craftsmanship in Every Ring
 
-Every engagement ring in our Edmonton store is crafted with care and **quality** in mind. Our diamonds are hand-selected and certified, ensuring you get brilliant sparkle and genuine value. If you’re drawn to **[gold engagement rings Edmonton](/our-collections/rings/)** shoppers trust for purity, you’ll be pleased to know we offer rings in various gold karats, including 18K and even **22K gold** for those who appreciate exceptionally rich gold jewelry. All our gold and gemstone rings are made to last, so your ring can become a cherished heirloom. With **white gold engagement rings** and platinum settings also available, you can choose the metal that best complements your style and skin tone.
+Every engagement ring in our Edmonton store is crafted with care and **quality** in mind. Our diamonds are hand-selected and certified, ensuring you get brilliant sparkle and genuine value. If you’re drawn to **[gold engagement rings Edmonton](/diamond-jewellery/)** shoppers trust for purity, you’ll be pleased to know we offer rings in various gold karats, including 18K and even **22K gold** for those who appreciate exceptionally rich gold jewelry. All our gold and gemstone rings are made to last, so your ring can become a cherished heirloom. With **white gold engagement rings** and platinum settings also available, you can choose the metal that best complements your style and skin tone.
 
 ### Custom Designs and Personal Touches
 

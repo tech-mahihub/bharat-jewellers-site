@@ -1,12 +1,42 @@
 # =========================================
 # 301 redirects for broken/old URLs
 # =========================================
-Redirect 301 /blog/contact-us/ /blog/
+Redirect 301 /blog/contact-us/ /contact/
+Redirect 301 /blog/contact-us /contact/
 Redirect 301 /blog/edmonton /blog/
 Redirect 301 /blog/our-collections/bracelet/ /blog/
 Redirect 301 /blog/our-collections/rings/ /blog/
 Redirect 301 /blog/surrey /blog/
 Redirect 301 /blog/surrey/ /blog/
+
+Redirect 301 /contact-us /contact/
+Redirect 301 /contact-us/ /contact/
+Redirect 301 /contact.html /contact/
+Redirect 301 /pages/about-us /about/
+Redirect 301 /pages/about-us/ /about/
+Redirect 301 /bharat-jewellers-edmonton /edmonton/
+Redirect 301 /bharat-jewellers-edmonton/ /edmonton/
+Redirect 301 /bharat-jewellers-blogs/diamond-jewelry-near-me /blog/diamond-jewelry-near-me/
+Redirect 301 /bharat-jewellers-blogs/diamond-jewelry-near-me/ /blog/diamond-jewelry-near-me/
+Redirect 301 /collections/diamond /diamond-jewellery/
+Redirect 301 /collections/diamond/ /diamond-jewellery/
+Redirect 301 /collections/bridal /bridal-sets/
+Redirect 301 /collections/bridal/ /bridal-sets/
+Redirect 301 /our-collections/necklace /gold-jewellery/
+Redirect 301 /our-collections/necklace/ /gold-jewellery/
+Redirect 301 /our-collections/rings /diamond-jewellery/
+Redirect 301 /our-collections/rings/ /diamond-jewellery/
+Redirect 301 /our-collections/earrings /gold-jewellery/
+Redirect 301 /our-collections/earrings/ /gold-jewellery/
+Redirect 301 /our-collections/bracelet /gold-jewellery/
+Redirect 301 /our-collections/bracelet/ /gold-jewellery/
+Redirect 301 /calgary-trusted-jewelry-store /blog/calgary-trusted-jewelry-store/
+Redirect 301 /calgary-trusted-jewelry-store/ /blog/calgary-trusted-jewelry-store/
+Redirect 301 /diwali-jewellery-offers /blog/diwali-jewellery-offers-in-canada/
+Redirect 301 /diwali-jewellery-offers/ /blog/diwali-jewellery-offers-in-canada/
+Redirect 301 /calgary.html /calgary/
+Redirect 301 /surrey.html /surrey/
+Redirect 301 /edmonton.html /edmonton/
 
 # =========================================
 # Clean URLs – hide .html extensions

@@ -67,7 +67,7 @@ We provide:
 
 ![Types of Engagement Rings](/assets/images/blog/wp-import/2025/03/Solitaire-Engagement-Rings-1024x512.webp)
 
-Planning your wedding? Bharat Jewellers offers an exceptional collection of **[wedding rings](/our-collections/rings/) Edmonton** couples love. Our bridal collection includes:
+Planning your wedding? Bharat Jewellers offers an exceptional collection of **[wedding rings](/diamond-jewellery/) Edmonton** couples love. Our bridal collection includes:
 
 ### Engagement Rings
 

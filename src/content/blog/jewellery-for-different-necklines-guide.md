@@ -128,9 +128,9 @@ Because halters already frame the neck, a necklace can compete.
 
 Finding the perfect **types of necklaces to wear with different necklines** is easier with personal guidance. The design specialists at Bharat Jewellers offer complimentary styling sessions-ideal when selecting heirloom pieces or bridal sets.
 
--   **Browse collections:** Discover [hand-finished pendants, chokers, and long chains in our Necklace Gallery](/our-collections/necklace/).
+-   **Browse collections:** Discover [hand-finished pendants, chokers, and long chains in our Necklace Gallery](/gold-jewellery/).
 
--   **Book a consultation:** Discuss custom design or gemstone upgrades via our [Contact Page](/contact-us/).
+-   **Book a consultation:** Discuss custom design or gemstone upgrades via our [Contact Page](/contact/).
 
 
 ### **Conclusion**

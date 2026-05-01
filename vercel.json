@@ -1,5 +1,45 @@
 {
   "redirects": [
+    { "source": "/contact-us", "destination": "/contact/", "permanent": true },
+    { "source": "/contact-us/", "destination": "/contact/", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact/", "permanent": true },
+
+    { "source": "/pages/about-us", "destination": "/about/", "permanent": true },
+    { "source": "/pages/about-us/", "destination": "/about/", "permanent": true },
+
+    { "source": "/bharat-jewellers-edmonton", "destination": "/edmonton/", "permanent": true },
+    { "source": "/bharat-jewellers-edmonton/", "destination": "/edmonton/", "permanent": true },
+
+    { "source": "/bharat-jewellers-blogs/diamond-jewelry-near-me", "destination": "/blog/diamond-jewelry-near-me/", "permanent": true },
+    { "source": "/bharat-jewellers-blogs/diamond-jewelry-near-me/", "destination": "/blog/diamond-jewelry-near-me/", "permanent": true },
+
+    { "source": "/collections/diamond", "destination": "/diamond-jewellery/", "permanent": true },
+    { "source": "/collections/diamond/", "destination": "/diamond-jewellery/", "permanent": true },
+    { "source": "/collections/bridal", "destination": "/bridal-sets/", "permanent": true },
+    { "source": "/collections/bridal/", "destination": "/bridal-sets/", "permanent": true },
+
+    { "source": "/our-collections/necklace", "destination": "/gold-jewellery/", "permanent": true },
+    { "source": "/our-collections/necklace/", "destination": "/gold-jewellery/", "permanent": true },
+    { "source": "/our-collections/rings", "destination": "/diamond-jewellery/", "permanent": true },
+    { "source": "/our-collections/rings/", "destination": "/diamond-jewellery/", "permanent": true },
+    { "source": "/our-collections/earrings", "destination": "/gold-jewellery/", "permanent": true },
+    { "source": "/our-collections/earrings/", "destination": "/gold-jewellery/", "permanent": true },
+    { "source": "/our-collections/bracelet", "destination": "/gold-jewellery/", "permanent": true },
+    { "source": "/our-collections/bracelet/", "destination": "/gold-jewellery/", "permanent": true },
+
+    { "source": "/calgary-trusted-jewelry-store", "destination": "/blog/calgary-trusted-jewelry-store/", "permanent": true },
+    { "source": "/calgary-trusted-jewelry-store/", "destination": "/blog/calgary-trusted-jewelry-store/", "permanent": true },
+
+    { "source": "/diwali-jewellery-offers", "destination": "/blog/diwali-jewellery-offers-in-canada/", "permanent": true },
+    { "source": "/diwali-jewellery-offers/", "destination": "/blog/diwali-jewellery-offers-in-canada/", "permanent": true },
+
+    { "source": "/calgary.html", "destination": "/calgary/", "permanent": true },
+    { "source": "/surrey.html", "destination": "/surrey/", "permanent": true },
+    { "source": "/edmonton.html", "destination": "/edmonton/", "permanent": true },
+
+    { "source": "/blog/contact-us", "destination": "/contact/", "permanent": true },
+    { "source": "/blog/contact-us/", "destination": "/contact/", "permanent": true },
+
     {
       "source": "/",
       "has": [{ "type": "host", "value": "www.bharatjewellers.ca" }],

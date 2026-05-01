@@ -22,7 +22,7 @@ Over the years, they have become a name people recommend to friends and family, 
 
 ![Jewelry Gift Ideas for Her](/assets/images/blog/wp-import/2025/05/Jewelry-Gift-Ideas-for-Her-1024x673.webp)
 
-One of the reasons Bharat Jewellers is a favourite among **jewellers Edmonton AB** is their ability to cater to all styles. Whether you love traditional gold [necklaces](/our-collections/necklace/), elegant diamond studs, or trendy silver bracelets, you will find something to match your taste.
+One of the reasons Bharat Jewellers is a favourite among **jewellers Edmonton AB** is their ability to cater to all styles. Whether you love traditional gold [necklaces](/gold-jewellery/), elegant diamond studs, or trendy silver bracelets, you will find something to match your taste.
 
 Their showroom features timeless classics for those who prefer understated elegance, as well as bold, modern designs for those who like to make a statement. Seasonal collections and exclusive designs also ensure there’s always something new to discover. This variety means every shopper can walk away with a piece that truly reflects their personality.
 

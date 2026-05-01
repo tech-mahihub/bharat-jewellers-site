@@ -52,7 +52,7 @@ These marks prove the gold is real.
 -   Bright yellow color
 -   Best for investment and special occasions
 
-Read: [Gold Chain for Men – Shop 22K & 24K Styles | Bharat Jewellers](/wp-admin/post.php?post=989900&action=edit)
+Read: [Gold Chain for Men – Shop 22K & 24K Styles | Bharat Jewellers](/blog/gold-chain-for-men/)
 
 ## Popular Indian Jewelry Styles in Surrey
 
@@ -140,21 +140,21 @@ If you are looking for **Indian jewelry in Surrey**, visit Bharat Jewellers to e
 <div class="store-grid">
   <div class="store-card">
     <img src="/assets/images/blog/wp-import/2025/07/Bharat-Jewellers-Surrey-Store1-1024x510.webp" alt="Bharat Jewellers - Surrey" loading="lazy" />
-    <h3><a href="/surrey.html">Bharat Jewellers - Surrey</a></h3>
+    <h3><a href="/surrey/">Bharat Jewellers - Surrey</a></h3>
     <p>155-8120 128 St, Surrey, BC V3W 1R1, Canada</p>
     <p>+1 (604) 593-1111</p>
     <a href="https://www.google.com/maps?sca_esv=4770e45ba07b1168&amp;rlz=1C1CHBF_enIN1111IN1111&amp;uact=5&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiF2JoYXJhdCBqZXdlbGxlcnMgc3VycmV5MgUQABiABDIIEAAYgAQYogQyBRAAGO8FMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIESJ4TUOUKWKsRcAJ4AJABAZgB6QGgAcMKqgEFMC41LjK4AQPIAQD4AQGYAgigAv8IwgIKEAAYsAMY1gQYR8ICDRAAGLADGNYEGEcYyQPCAg4QABiABBiwAxiSAxiKBcICCxAuGIAEGMcBGK8BwgIGEAAYFhgewgIOEC4YFhjHARgKGB4YrwHCAhoQLhiABBjHARivARiXBRjcBBjeBBjgBNgBAcICAhAmmAMAiAYBkAYJugYGCAEQARgUkgcFMi41LjGgB-QqsgcFMC41LjG4B_UIwgcFMC4zLjXIBx4&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=in&amp;sa=X&amp;geocode=KW33k1Of2YVUMcsMb3D0_HKM&amp;daddr=155-8120+128+St,+Surrey,+BC+V3W+1R1,+Canada" target="_blank" rel="noopener noreferrer">Get Directions ➥</a>
   </div>
   <div class="store-card">
     <img src="/assets/images/blog/wp-import/2025/07/Bharat-Jewellers-Calgary-1024x510.webp" alt="New Bharat Jewellers - Calgary" loading="lazy" />
-    <h3><a href="/calgary.html">New Bharat Jewellers - Calgary</a></h3>
+    <h3><a href="/calgary/">New Bharat Jewellers - Calgary</a></h3>
     <p>Cityscape Landing Plaza, 4310 104 Ave NE #1130, Calgary, AB T3N 1W1, Canada</p>
     <p>+1 (403) 558-0455</p>
     <a href="https://www.google.com/maps?sca_esv=4770e45ba07b1168&amp;rlz=1C1CHBF_enIN1111IN1111&amp;uact=5&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiHG5ldyBiaGFyYXQgamV3ZWxsZXJzIGNhbGdhcnkyBRAAGIAEMggQABiABBiiBDIIEAAYgAQYogQyBRAAGO8FMggQABiABBiiBEj9LFCBCVjyKnABeACQAQCYAfoCoAGTFKoBCDAuMTEuMS4xuAEDyAEA-AEBmAILoAK5DsICChAAGLADGNYEGEfCAg0QABiwAxjWBBhHGMkDwgIOEAAYgAQYsAMYkgMYigXCAgcQABiABBgNwgILEAAYgAQYkQIYigXCAgYQABgWGB7CAgIQJsICCxAAGIAEGIYDGIoFmAMAiAYBkAYJkgcFMS44LjKgB9E-sgcFMC44LjK4B7cOwgcFMC41LjbIByQ&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=in&amp;sa=X&amp;geocode=KYd7GfKYY3FTMYXGEGoHC8-L&amp;daddr=Cityscape+Landing+Plaza,+4310+104+Ave+NE+%231130,+Calgary,+AB+T3N+1W1,+Canada" target="_blank" rel="noopener noreferrer">Get Directions ➥</a>
   </div>
   <div class="store-card">
     <img src="/assets/images/blog/wp-import/2025/07/Jewelry-Stores-Edmonton-1-1024x536.webp" alt="Jewelry Stores Edmonton" loading="lazy" />
-    <h3><a href="/edmonton.html">Bharat Jewellers - Edmonton</a></h3>
+    <h3><a href="/edmonton/">Bharat Jewellers - Edmonton</a></h3>
     <p>9358 34 Ave NW, Edmonton, AB T6E 5X8, Canada</p>
     <p>+1 (604) 771-5721</p>
     <a href="https://www.google.com/maps?sca_esv=4770e45ba07b1168&amp;rlz=1C1CHBF_enIN1111IN1111&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiGWJoYXJhdCBqZXdlbGxlcnMgZWRtb250b25IAFAAWABwAHgBkAEAmAEAoAEAqgEAuAEMyAEAmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcA&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=in&amp;sa=X&amp;geocode=KZ3Dcq8-H6BTMXOIFoVWdE1U&amp;daddr=9358+34+Ave+NW,+Edmonton,+AB+T6E+5X8,+Canada" target="_blank" rel="noopener noreferrer">Get Directions ➥</a>
@@ -162,9 +162,9 @@ If you are looking for **Indian jewelry in Surrey**, visit Bharat Jewellers to e
 </div>
 ## Final Thoughts
 
-When it comes to **Indian jewelry Surrey**, trust matters. From daily wear to bridal sets, **[Bharat Jewellers Surrey](/surrey.html)** offers authentic Indian gold jewelry with certification, fair pricing, and expert help.
+When it comes to **Indian jewelry Surrey**, trust matters. From daily wear to bridal sets, **[Bharat Jewellers Surrey](/surrey/)** offers authentic Indian gold jewelry with certification, fair pricing, and expert help.
 
-👉 **[Contact Us](/contact.html) today** and experience genuine Indian jewelry you can trust.
+👉 **[Contact Us](/contact/) today** and experience genuine Indian jewelry you can trust.
 
 <h2 class="faq-heading">Frequently Asked Questions</h2>
 

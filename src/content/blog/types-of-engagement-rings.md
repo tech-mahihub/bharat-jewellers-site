@@ -70,7 +70,7 @@ Inspired by past eras, vintage engagement rings often feature intricate designs,
 -   Often includes unique diamond cuts like emerald or marquise
 -   Appeals to those who love timeless beauty
 
-Read: [How to Style Vintage Jewelry with Modern Outfits](/wp-admin/post.php?post=989381&action=edit)
+Read: [How to Style Vintage Jewelry with Modern Outfits](/blog/vintage-jewelry/)
 
 ### **6\. Split Shank Engagement Rings**
 
