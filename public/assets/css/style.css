@@ -5620,6 +5620,27 @@ footer {
   margin: 0;
 }
 
+.collections-extra-nav {
+  margin-top: 2rem;
+  text-align: center;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.collections-extra-nav a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.collections-extra-nav a:hover {
+  color: #e8d5a3;
+}
+
 .collections-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

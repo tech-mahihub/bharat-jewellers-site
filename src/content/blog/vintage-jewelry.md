@@ -38,8 +38,8 @@ Read: [How to Choose the Right Diamond Jewelry for Your Style](/blog/choose-diam
 
 Each era has its own distinct style that influences modern trends. Some of the most beloved vintage styles include:
 
--   **[Art Deco (1920s-1930s)](https://www.gia.edu/doc/Art-Deco-The-Period-the-Jewelry.pdf)** – Geometric shapes, bold colors, and striking symmetry.
--   **[Retro (1940s-1950s)](https://www.langantiques.com/university/retro-era-jewelry/)** – Glamorous designs with large gemstones and gold settings.
+-   **[Art Deco (1920s-1930s)](https://en.wikipedia.org/wiki/Art_Deco)** – Geometric shapes, bold colors, and striking symmetry.
+-   **[Retro (1940s-1950s)](https://en.wikipedia.org/wiki/Retro_style)** – Glamorous designs with large gemstones and gold settings.
 -   **[Victorian (1800s-1900s)](https://en.wikipedia.org/wiki/Victorian_jewellery)** – Romantic motifs, intricate filigree, and sentimental lockets.
 
 Vintage jewelry engagement rings are a perfect choice for those who love timeless and elegant designs. To preserve these precious pieces, antique vintage jewelry boxes provide a beautiful and secure storage option.

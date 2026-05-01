@@ -34,8 +34,11 @@
     { "source": "/diwali-jewellery-offers/", "destination": "/blog/diwali-jewellery-offers-in-canada/", "permanent": true },
 
     { "source": "/calgary.html", "destination": "/calgary/", "permanent": true },
+    { "source": "/Calgary.html", "destination": "/calgary/", "permanent": true },
     { "source": "/surrey.html", "destination": "/surrey/", "permanent": true },
+    { "source": "/Surrey.html", "destination": "/surrey/", "permanent": true },
     { "source": "/edmonton.html", "destination": "/edmonton/", "permanent": true },
+    { "source": "/Edmonton.html", "destination": "/edmonton/", "permanent": true },
 
     { "source": "/blog/contact-us", "destination": "/contact/", "permanent": true },
     { "source": "/blog/contact-us/", "destination": "/contact/", "permanent": true },

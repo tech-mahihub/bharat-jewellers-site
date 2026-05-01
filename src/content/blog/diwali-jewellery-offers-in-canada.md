@@ -4,7 +4,7 @@ description: "Looking for the best Diwali jewellery offers in Canada? Visit Our 
 date: "2025-10-14"
 image: "/assets/images/blog/wp-import/2025/10/Diwali-jewellery-offers-in-Canada.webp"
 ---
-Diwali is the festival of lights🪔, prosperity, and new beginnings — and it’s the perfect time to buy gold! At **Bharat Jewellers**, we bring you the most exciting **[Diwali jewellery offers](/diwali-jewellery-offers/) in Canada**, filled with festive gifts, lucky draws, and special treats for every family. ✨
+Diwali is the festival of lights🪔, prosperity, and new beginnings — and it’s the perfect time to buy gold! At **Bharat Jewellers**, we bring you the most exciting **Diwali jewellery offers in Canada**, filled with festive gifts, lucky draws, and special treats for every family. ✨
 
 ## 🎁 Festive Offers for All Bharat Jewellers Stores
 

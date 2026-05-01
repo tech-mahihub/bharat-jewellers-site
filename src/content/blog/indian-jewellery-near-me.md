@@ -11,7 +11,7 @@ There’s nothing quite like the beauty and craftsmanship of Indian jewelry. If 
 -   **22K Gold [Bridal Sets](/blog/bridal-jewelry-shopping-tips/) & Bangles:** Traditional wedding sets (necklaces, bangles, etc.) crafted in pure 22K gold.
 -   **Diamond Engagement Rings & [Jewelry](/blog/luxury-diamond-jewellery-near-me-surrey/):** Certified diamond engagement rings, as well as diamond earrings and pendant sets.
 -   **Everyday Elegance:** Lightweight gold chains, earrings, and bracelets designed for daily wear.
--   **Custom Designs:** Work with expert designers to create one-of-a-kind [jewellery pieces.](https://www.mapquest.com/ca/alberta/new-bharat-jewellers-751520247#:~:text=New%20Bharat%20Jewellers%2C%20located%20in,for%20all%20your%20jewelry%20needs)
+-   **Custom Designs:** Work with expert designers to create one-of-a-kind [jewellery pieces](/custom-jewellery/).
 
 With over two decades of experience in the industry (and a presence in multiple countries), Bharat Jewellers prides itself on honesty, quality, and customer satisfaction. Let’s explore what each of their locations offers for anyone looking for **indian jewellery near me** in these areas.
 
@@ -61,7 +61,7 @@ Pricing is transparent and fair, with rates aligned to the daily gold market. Fr
 
 If you are in Calgary, **[New Bharat Jewellers Calgary](/blog/calgary-trusted-jewelry-store/)** (located at CityScape Landing Plaza in NE Calgary) is your destination for authentic Indian jewelry. For anyone searching **indian jewellery near me** in Calgary, this store has become a trusted name. In fact, many Calgary families choose Bharat Jewellers for important occasions because of the store’s reputation for integrity and excellent customer service—see our **[Calgary store spotlight](/blog/calgary-trusted-jewelry-store/)**.
 
-At the Calgary location, you’ll find a dazzling array of 22K gold and diamond jewellery. This includes **bridal jewellery sets**, **engagement rings**, **mangalsutras**, and more. The collection blends traditional craftsmanship with modern designs[mapquest.com](https://www.mapquest.com/ca/alberta/new-bharat-jewellers-751520247#:~:text=New%20Bharat%20Jewellers%2C%20located%20in,for%20all%20your%20jewelry%20needs), ensuring there’s something for every taste – be it a classic South Indian style necklace or a sleek contemporary pendant. Calgary shoppers especially love the personalized service here: the staff take time to listen and help you find exactly what you need without any pressure.
+At the Calgary location, you’ll find a dazzling array of 22K gold and diamond jewellery. This includes **bridal jewellery sets**, **engagement rings**, **mangalsutras**, and more. The collection blends traditional craftsmanship with modern designs—visit our **[Calgary showroom](/calgary/)** for directions—ensuring there’s something for every taste – be it a classic South Indian style necklace or a sleek contemporary pendant. Calgary shoppers especially love the personalized service here: the staff take time to listen and help you find exactly what you need without any pressure.
 
 New Bharat Jewellers Calgary can also accommodate special requests – from custom designs to resizing – so you get exactly what you want. With honest pricing, **BIS-hallmarked** gold and certified diamonds, this store has earned the trust of the community as a top spot for _indian jewellery near me_ in Calgary.
 

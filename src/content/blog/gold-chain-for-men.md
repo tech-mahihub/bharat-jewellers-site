@@ -12,13 +12,13 @@ With three trusted locations—**Surrey, Calgary, and Edmonton**—we’re here 
 
 ### **Types of Gold Chain **for Men****
 
-![gold chain for men](https://zulri.com/cdn/shop/files/3_compressed.jpg?v=1720682450)
+![Examples of curb and rope-style gold chains for men](/assets/images/Chains/Chain_1.webp)
 
-![gold chain for men](https://www.shiels.com.au/cdn/shop/products/10254107-w.jpg?v=1661847858)
+![Classic men's gold chain styles in 22K gold](/assets/images/Chains/Chain_2.webp)
 
-![gold chain for men](https://twistedpendant.com/cdn/shop/files/2_a84b2a62-db7d-4df4-b21f-1c782c377946.png?v=1747224554&width=1000)
+![Bold twisted rope gold chain for men](/assets/images/Chains/Chain_3.webp)
 
-![gold chain for men](https://www.zavya.co/cdn/shop/files/CH-10052-G_MD2.jpg?v=1736752739)
+![Structured box-link men's gold chain](/assets/images/Chains/Chain_4.webp)
 
 When choosing a gold chain for men, knowing the different types helps you find the one that matches your style:
 
@@ -79,7 +79,7 @@ Phone: +1 (403) 558-0455
 ##### Bharat Jewellers - Edmonton
 
 Address: 9358 34 Ave NW, Edmonton, AB T6E 5X8, Canada
-Phone: +1 (604) 771-5721
+Phone: +1 (780) 262-6111
 
 [Get Directions ➥](https://www.google.com/maps?sca_esv=4770e45ba07b1168&rlz=1C1CHBF_enIN1111IN1111&gs_lp=Egxnd3Mtd2l6LXNlcnAiGWJoYXJhdCBqZXdlbGxlcnMgZWRtb250b25IAFAAWABwAHgBkAEAmAEAoAEAqgEAuAEMyAEAmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KZ3Dcq8-H6BTMXOIFoVWdE1U&daddr=9358+34+Ave+NW,+Edmonton,+AB+T6E+5X8,+Canada)
 

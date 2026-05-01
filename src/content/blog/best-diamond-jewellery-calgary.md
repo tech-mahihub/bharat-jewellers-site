@@ -45,7 +45,7 @@ A curated floor feels different from a generic rack: fewer filler pieces, more d
 - **Bridal sets** — coordinated necklaces and earrings (and bangles when the look calls for it)
 - **Lab-grown diamonds** — strong fire and durability for value-focused buyers
 
-New to grading? Ask the team to walk you through the 4Cs in plain language while you compare stones side by side. For styling ideas across your wedding weekend, see this [wedding jewellery basics guide](https://www.brides.com/story/wedding-jewelry-basics).
+New to grading? Ask the team to walk you through the 4Cs in plain language while you compare stones side by side. For styling ideas across your wedding weekend, see our [wedding jewellery planning timeline](/blog/wedding-jewellery-planning-timeline/).
 
 ## 2. Custom Diamond Jewellery Calgary – Designed for Your Story
 

@@ -35,7 +35,7 @@ Additionally, well-preserved jewelry with minimal damage holds higher value, whi
 
 Each era of antique jewelry has its own distinctive characteristics:
 
--   **[Georgian (1714–1837)](https://www.langantiques.com/university/georgian-jewelry-1714-1837):** Handmade with intricate metalwork, featuring floral and nature-inspired designs. Pieces were often adorned with rose-cut diamonds, topaz, and garnets.
+-   **[Georgian (1714–1837)](https://en.wikipedia.org/wiki/Georgian_era):** Handmade with intricate metalwork, featuring floral and nature-inspired designs. Pieces were often adorned with rose-cut diamonds, topaz, and garnets.
 -   **[Victorian (1837–1901)](https://moirafinejewellery.com/victorian-jewellery-1837-1901):** Symbolic jewelry with sentimental meanings, often featuring lockets, cameos, and mourning jewelry with jet, pearls, and enameling.
 -   **Edwardian (1901–1915):** Delicate, lace-like filigree designs in platinum, featuring diamonds and pearls. This period is known for its elegant and romantic aesthetic.
 -   **Art Nouveau (1890–1910):** Flowing, nature-inspired designs with soft curves and detailed enameling, often incorporating mystical themes and organic shapes.

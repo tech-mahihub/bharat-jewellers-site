@@ -38,7 +38,7 @@ Today you can choose among three main kinds:
 3.  **Fancy-coloured diamonds** – yellows, pinks, and blues that turn heads instantly.
 
 
-For more background on each type, the **[De Beers Diamond Education](https://www.debeers.com/en-us/education.html)** page offers a friendly deep dive.
+For more background on each type, our **[natural diamond guide](/blog/natural-diamond-guide/)** offers a friendly deep dive.
 
 ### **The Story Behind Surrey’s Favourite Indian Jewellers Near Me**
 

@@ -35,8 +35,11 @@ Redirect 301 /calgary-trusted-jewelry-store/ /blog/calgary-trusted-jewelry-store
 Redirect 301 /diwali-jewellery-offers /blog/diwali-jewellery-offers-in-canada/
 Redirect 301 /diwali-jewellery-offers/ /blog/diwali-jewellery-offers-in-canada/
 Redirect 301 /calgary.html /calgary/
+Redirect 301 /Calgary.html /calgary/
 Redirect 301 /surrey.html /surrey/
+Redirect 301 /Surrey.html /surrey/
 Redirect 301 /edmonton.html /edmonton/
+Redirect 301 /Edmonton.html /edmonton/
 
 # =========================================
 # Clean URLs – hide .html extensions
